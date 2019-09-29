@@ -11,30 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Warsaw University of Technology, Faculty of Electronic and Information Technology, 2015-2019
+* M.S. in Data Science, Warsaw university of Technology, Faculty of Mathematics and Information Science, 2019 - now
+* M.S. in Data Science, University of Barcelona, Faculity of Mathematics and Computer Science, 2019 - now
+* M.S. in Artificial Intelligence, Universitat Politècnica de Catalunya, Faculity of Informatics Barcelona, 2019 - now
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2017: Junior Java Developer in QBS
+  * During summer internship I’ve designed and created system to manage small foundation with cloud server using Java and SQL technologies. I have references from the company owner
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2018 - now: Freelancer
+  * am giving tutoring on Machine Learning and Computer Science. I’ve organized and lead ML Workshops in Python. I was a speaker at Best Engineering Meeting 2018, PyWaw 84.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Good teamwork
+* Communicative
+* Quick learning
 
 Publications
 ======
