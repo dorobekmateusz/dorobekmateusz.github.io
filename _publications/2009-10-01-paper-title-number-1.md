@@ -1,15 +1,9 @@
 ---
-title: "Paper Title Number 1"
-collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+title: "Application of Deep Neural Networks to Music Composition Based on MIDI Datasets and Graphical Representation"
+excerpt: 'In this paper we have presented a method for composing and generating short musical phrases using a deep convolutional generative adversarial network (DCGAN). We have used a dataset of classical and jazz music MIDI recordings in order to train the network. Our approach introduces translating the MIDI data into graphical images in a piano roll format suitable for the DCGAN, using the RGB channels as additional information carriers for improved performance. We show that the network has learned to generate images that are indistinguishable from the input data and, when translated back to MIDI and played back, include several musically interesting rhythmic and harmonic structures. The results of the conducted experiments are described and discussed, with conclusions for further work and a short comparison with selected existing solutions.'
+date: 2019-05-24
+venue: 'International Conference on Artificial Intelligence and Soft Computing 2019'
+paperurl: 'https://link.springer.com/chapter/10.1007/978-3-030-20912-4_14'
+citation: 'Mateusz Dorobek (2019). &quot;Application of Deep Neural Networks to Music Composition Based on MIDI Datasets and Graphical Representation&quot; <i>International Conference on Artificial Intelligence and Soft Computing 2019</i>'
 ---
-This paper is about the number 1. The number 2 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+In this paper we have presented a method for composing and generating short musical phrases using a deep convolutional generative adversarial network (DCGAN). We have used a dataset of classical and jazz music MIDI recordings in order to train the network. Our approach introduces translating the MIDI data into graphical images in a piano roll format suitable for the DCGAN, using the RGB channels as additional information carriers for improved performance. We show that the network has learned to generate images that are indistinguishable from the input data and, when translated back to MIDI and played back, include several musically interesting rhythmic and harmonic structures. The results of the conducted experiments are described and discussed, with conclusions for further work and a short comparison with selected existing solutions.
