@@ -10,6 +10,6 @@ date: 2018-12-14
 paperurl: 'https://mateuszdorobek.github.io/files/Wykorzystanie-sztucznej-inteligencji-do-generowania.pdf'
 citation: 'Mateusz Dorobek (2019) &quot;Wykorzystanie sztucznej inteligencji do generowania treści muzycznych&quot;'
 ---
-<embed src="https://grad.uwo.ca/doc/admissions/application_support/supporting_documents.pdf" width="500" height="375" 
+<embed src="https://mateuszdorobek.github.io/files/Wykorzystanie-sztucznej-inteligencji-do-generowania.pdf" width="500" height="375" 
  type="application/pdf">
 
