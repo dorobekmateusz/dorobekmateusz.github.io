@@ -1,12 +1,12 @@
 ---
 title: "Music Generator"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: /publication/Music-Generator
 excerpt: 'Implementation of DCGAN music generating software'
 date: 2019-01-24
-venue: ''
-paperurl: 'github.com/SaxMan96/Music-Generator'
-citation: 'Mateusz Dorobek (2019) &quot;Music Generator.&quot;'
+venue: 'GitHub'
+paperurl: 'https://github.com/SaxMan96/Music-Generator'
+citation: 'Mateusz Dorobek (2019) &quot;Music Generator&quot;'
 ---
 # [Music Generator](https://github.com/SaxMan96/Music-Generator)
 This project implements Deep Learning solution in generating music with it's image form - piano roll.
