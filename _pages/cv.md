@@ -7,22 +7,20 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* B.S. in Computer Science, Warsaw University of Technology, Faculty of Electronic and Information Technology, 2015-2019
-* M.S. in Data Science, Warsaw university of Technology, Faculty of Mathematics and Information Science, 2019 - now
-* M.S. in Data Science, University of Barcelona, Faculity of Mathematics and Computer Science, 2019 - now
-* M.S. in Artificial Intelligence, Universitat Politècnica de Catalunya, Faculity of Informatics Barcelona, 2019 - now
+* B.S. in **Computer Science**, Warsaw University of Technology, *Faculty of Electronic and Information Technology*, 2015-2019
+* M.S. in **Data Science**, Warsaw university of Technology, *Faculty of Mathematics and Information Science*, 2019 - now
+* M.S. in **Data Science**, Universitat de Barcelona, *Faculty of Mathematics and Computer Science*, 2019 - now
+* M.S. in **Artificial Intelligence**, Universitat Politècnica de Catalunya, *Faculty of Informatics Barcelona*, 2019 - now
 
 Work experience
 ======
-* Summer 2017: Junior Java Developer in QBS
-  * During summer internship I’ve designed and created system to manage small foundation with cloud server using Java and SQL technologies. I have references from the company owner
+* Summer 2017: **Junior Java Developer** in QBS
+  * During summer internship I’ve designed and created system to manage small foundation with cloud server using Java and SQL technologies. I have references from the company. Project I've created on [QBS website](https://qbs.com.pl/programy/q-korespondencja-seryjna/).
 
-* 2018 - now: Freelancer
-  * am giving tutoring on Machine Learning and Computer Science. I’ve organized and lead ML Workshops in Python. I was a speaker at Best Engineering Meeting 2018, PyWaw 84.
+* 2018 - now: **Freelancer / Tutor**
+  * As a freelancer, I'm creating Machine Learning and Data Science correlated software. Most of my clients are students, student clubs, etc. I'm also giving private lessons on computer science and artificial intelligence. My tutoring account on [e-korepetycje](https://www.e-korepetycje.net/mateuszdorobek) (PL)
   
 Skills
 ======
@@ -35,19 +33,19 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
