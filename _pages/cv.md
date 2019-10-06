@@ -9,10 +9,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in **Computer Science**, Warsaw University of Technology, *Faculty of Electronic and Information Technology*, 2015-2019
-* M.S. in **Data Science**, Warsaw university of Technology, *Faculty of Mathematics and Information Science*, 2019 - now
-* M.S. in **Data Science**, Universitat de Barcelona, *Faculty of Mathematics and Computer Science*, 2019 - now
 * M.S. in **Artificial Intelligence**, Universitat Politècnica de Catalunya, *Faculty of Informatics Barcelona*, 2019 - now
+* M.S. in **Data Science**, Universitat de Barcelona, *Faculty of Mathematics and Computer Science*, 2019 - now
+* M.S. in **Data Science**, Warsaw university of Technology, *Faculty of Mathematics and Information Science*, 2019 - now
+* B.S. in **Computer Science**, Warsaw University of Technology, *Faculty of Electronic and Information Technology*, 2015-2019
 
 Work experience
 ======
@@ -35,4 +35,4 @@ Talks
 
 Hobbies
 =======
-* **Jazz Music** - I’m graduate of two musical schools, PSM in Plock and Jazz faculty in ZPSM in Warsaw. I’m arranging, composing and playing saxophone and piano from 10 years. I'm pianist and composer in my jazz quartet *STACJA AUGIASZA*.
+* **Jazz Music** - I’m graduate of two musical schools, PSM in Plock and Jazz faculty in ZPSM in Warsaw. I’m arranging, composing and playing saxophone and piano from 10 years. I'm pianist and composer in my jazz quartet Stacja Augiasza.
