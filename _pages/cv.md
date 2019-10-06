@@ -16,18 +16,10 @@ Education
 
 Work experience
 ======
-* Summer 2017: **Junior Java Developer** in QBS
-  * During summer internship I’ve designed and created system to manage small foundation with cloud server using Java and SQL technologies. I have references from the company. Project I've created on [QBS website](https://qbs.com.pl/programy/q-korespondencja-seryjna/).
-
 * 2018 - now: **Freelancer / Tutor**
   * As a freelancer, I'm creating Machine Learning and Data Science correlated software. Most of my clients are students, student clubs, etc. I'm also giving private lessons on computer science and artificial intelligence. My tutoring account on [e-korepetycje](https://www.e-korepetycje.net/mateuszdorobek) (PL)
-  
-Skills
-======
-* Good teamwork
-* Communicative
-* Quick learning
-
+* 2017: **Junior Java Developer** in QBS
+  - During summer internship I’ve designed and created system to manage small foundation with cloud server using Java and SQL technologies. I have references from the company. Project I've created on [QBS website](https://qbs.com.pl/programy/q-korespondencja-seryjna/).
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -40,12 +32,6 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Hobbies
+=======
+* **Jazz Music** - I’m graduate of two musical schools, PSM in Plock and Jazz faculty in ZPSM in Warsaw. I’m arranging, composing and playing saxophone and piano from 10 years. I'm pianist and composer in my jazz quartet *STACJA AUGIASZA*.
