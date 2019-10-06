@@ -20,6 +20,7 @@ Work experience
   * As a freelancer, I'm creating Machine Learning and Data Science correlated software. Most of my clients are students, student clubs, etc. I'm also giving private lessons on computer science and artificial intelligence. My tutoring account on [e-korepetycje](https://www.e-korepetycje.net/mateuszdorobek) (PL)
 * 2017: **Junior Java Developer** in QBS
   - During summer internship I’ve designed and created system to manage small foundation with cloud server using Java and SQL technologies. I have references from the company. Project I've created on [QBS website](https://qbs.com.pl/programy/q-korespondencja-seryjna/).
+
 Publications
 ======
   <ul>{% for post in site.publications %}
