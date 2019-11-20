@@ -12,7 +12,6 @@ Implementation of DCGAN music generating software using it's image format - pian
 **LAST UPDATE** - New article ["Use of artificial intelligence for generating musical contents"](https://github.com/SaxMan96/Music-Generator/blob/master/Article.pdf) PL. Music at [SoundCloud](https://soundcloud.com/mateuszdorobek/sets/ai-music), Code on [GitHub](https://github.com/SaxMan96/Music-Generator)
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/719803656&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
 # Input Data
 
 I've decided to use piano roll format, because it has less data redundancy than wave form and spectrogram:
@@ -87,3 +86,7 @@ Look at [examples](https://github.com/SaxMan96/Music-Generator/tree/master/music
 # Tech Stack
 
 <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png"  height="60" title="Github"><img src="https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/12/PyTorch-logo.jpg"  height="60"  title="Github"><img src="https://www.fullstackpython.com/img/logos/pycharm.jpg"  height="60" title="Pycharm Logo"><img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png"  height="60" title="Anaconda Logo">
+
+
+
+24 Jan 2019 - [Mateusz Dorobek](https://mateuszdorobek.pl)
