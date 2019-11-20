@@ -1,12 +1,12 @@
 ---
 title: "NLP Question Classification"
-collection: publications
-permalink: /publication/NLP-Question-Classifier
-excerpt: 'Classify questions to 4 different classes, using NLP methods and ML tools for classification.'
 date: 2019-10-25
-venue: 'GitHub'
-paperurl: 'https://github.com/SaxMan96/NLP-Question-Classifier'
-citation: 'Mateusz Dorobek (2019) &quot;NLP-Question-Classifier&quot;'
+permalink: /posts/2019/10/NLP-Question-Classifier
+tags:
+
+  - NLP
+  - Classification
+  - Python
 ---
 
 # NLP Question Classification
@@ -172,5 +172,5 @@ These are results of my classification:
 
 
 
+25 Oct 2019 [Mateusz Dorobek](https://mateuszdorobek.pl) UPC - Human Language Engineering
 
-25.10.2019 [Mateusz Dorobek](https://mateuszdorobek.github.io) UPC - Human Language Engineering
