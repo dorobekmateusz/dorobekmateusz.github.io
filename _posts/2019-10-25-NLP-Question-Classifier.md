@@ -8,9 +8,6 @@ tags:
   - Classification
   - Python
 ---
-
-# NLP Question Classification
-
 Classify questions to 4 different classes, using NLP methods and ML tools for classification. See it on [GitHub]( https://github.com/SaxMan96/NLP-Question-Classifier )
 
 ## Data

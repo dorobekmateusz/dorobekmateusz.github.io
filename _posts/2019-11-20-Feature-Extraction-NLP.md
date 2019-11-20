@@ -8,9 +8,6 @@ tags:
   - Feature Extraction
   - Python
 ---
-
-# Feature Extraction in NLP
-
 Short explanation of what is feature extraction and how it differs from other data preprocessing techniques in area of Natural Language Processing
 
 ## What is Feature Extraction?
@@ -120,4 +117,3 @@ Natural Language Processing requires creating tabular data from the raw text. It
 
 
 20 Nov 2019 [Mateusz Dorobek](https://mateuszdorobek.pl) UPC - Human Language Engineering
-

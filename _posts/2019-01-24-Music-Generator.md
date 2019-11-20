@@ -1,28 +1,21 @@
 ---
 title: "Music Generator"
-collection: publications
-permalink: /publication/Music-Generator
-excerpt: 'Implementation of DCGAN music generating software'
 date: 2019-01-24
-venue: 'GitHub'
-paperurl: 'https://github.com/SaxMan96/Music-Generator'
-citation: 'Mateusz Dorobek (2019) &quot;Music Generator&quot;'
+permalink: /posts/2019/01/Music-Generator
+tags:
+
+  - DCGAN
+  - Music Generation
+  - Python
 ---
-# [Music Generator](https://github.com/SaxMan96/Music-Generator)
-This project implements Deep Learning solution in generating music with it's image form - piano roll.
-It was part of my diploma thesis defended in January 2019. 
+Implementation of DCGAN music generating software using it's image format - piano roll. It's a part of my diploma thesis defended in January 2019. 
+**LAST UPDATE** - New article ["Use of artificial intelligence for generating musical contents"](https://github.com/SaxMan96/Music-Generator/blob/master/Article.pdf) PL. Music at [SoundCloud](https://soundcloud.com/mateuszdorobek/sets/ai-music), Code on [GitHub](https://github.com/SaxMan96/Music-Generator)
 
-**LAST UPDATE** - New article ["Use of artificial intelligence for generating musical contents"](https://github.com/SaxMan96/Music-Generator/blob/master/Article.pdf) PL
-
-Listen **AI Music** at my [SoundCloud](https://soundcloud.com/mateuszdorobek/sets/ai-music)
-
-<a href="https://soundcloud.com/mateuszdorobek/sets/ai-music">
-<img border="0" alt="W3Schools" src="https://www.magneticmag.com/.image/t_share/MTU5MDMzNzc3NjQ4MDUxOTky/soundcloud.png" width="200">
-</a>
-
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/719803656&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 # Input Data
-I've decided to use piano roll format, becouse it has less data redundation than wave form and spectrogram:
+
+I've decided to use piano roll format, because it has less data redundancy than wave form and spectrogram:
 
 <img src="https://raw.githubusercontent.com/SaxMan96/Music-Generator/master/images/music_formats_%20comparition.png" width="800" align="middle" title="Music Formats Comparition">
 
@@ -43,7 +36,7 @@ Using scripts in [MidiScripts](https://github.com/SaxMan96/Music-Generator/tree/
 - Merging all midi files with [mtxMergeScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/mtxMergeScript.py) into one big pixel matrix 
 - Dividing and converting with [mtxCompressScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/mtxCompressScript.py) into training image set.
 
-#### Sample MIDI in text format (MIDI is basicly binary file)
+#### Sample MIDI in text format (MIDI is basically binary file)
 ```
 MFile 1 2 384
 MTrk
@@ -72,15 +65,15 @@ I've decided to use DCGAN architecture described and implemented [here](https://
 
 # Training
 To train I've used [Google Collaboratory](colab.research.google.com) with their amazing **Tesla K80**, and my private device with **NVidia 1050Ti** which performed really well.
-As a result of training I've recived bunch of indistinguishable images which I've to transform back to midi form with [imagesDecodeScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/imagesDecodeScript.py)
+As a result of training I've received bunch of indistinguishable images which I've to transform back to midi form with [imagesDecodeScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/imagesDecodeScript.py)
 
 ![Fake vs Real](https://raw.githubusercontent.com/SaxMan96/Music-Generator/master/images/Fake%20vs%20Real.png?token=AQ9tTS3Gwu_EG1oyGgVLGJGHY8E0xcTHks5cgXvbwA%3D%3D)
 
-Overal cost function in first experiments semms to prove some overfitting, but in this kind of images it's nothing suprising.
+Overall cost function in first experiments seems to prove some overfitting, but in this kind of images it's nothing surprising.
 
 ![Cost Function](https://raw.githubusercontent.com/SaxMan96/Music-Generator/master/images/G%26D%20Loss.png?token=AQ9tTWjsbX7O7GxkGVsMZuVQeG2GQYMWks5cgXxcwA%3D%3D)
 
-And here we have one of the most beautiful things in using GAN networks, learning progres animation
+And here we have one of the most beautiful things in using GAN networks, learning progress animation
 
 
 ![GIF](https://github.com/SaxMan96/Music-Generator/blob/master/images/gif_short.gif?raw=true)

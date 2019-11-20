@@ -1,20 +1,18 @@
 ---
 title: "Safely - The Intelligent Travel Assistant"
-collection: publications
-permalink: /publication/HackUPC-2019-Safely
-excerpt: 'Project done during HackUPC 2019'
 date: 2019-10-13
-venue: 'GitHub'
-paperurl: 'https://devpost.com/software/safely-sa5lte'
-citation: 'Safely HackUPC 2019'
+permalink: /posts/2019/10/HackUPC-2019-Safely
+tags:
+
+  - HackUPC
+  - Safely
+  - Classification
 ---
-
-# SAFELY | The Intelligent Travel Assistant
-
-![]( https://raw.githubusercontent.com/Safe-ly/HACK-UPC-ML/master/logo.png )
+During Hack UPC 2019 I've attended in two challenges:
+"Use of AI in real-life cases" and "McKinsey severity classification"
+My model predicts the severity of accidents. My team also created a web app that suggests useful tips to make your travel safer. Our submission on [Devpost](https://devpost.com/software/safely-sa5lte) and ML report for [McKinsey](https://mateuszdorobek.pl/posts/2019/10/McKinsey-Hack-The-Crash)
 
 <iframe width="420" height="285" src="https://www.youtube.com/embed/xaulZbueQoc?autoplay=1"></iframe>
-
 ## Inspiration
 
 Nowadays people travel without awareness. We would like to make travels safer, using Big Data and AI.

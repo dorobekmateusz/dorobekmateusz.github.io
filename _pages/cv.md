@@ -33,6 +33,14 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
+Posts
+======
+
+  <ul>{% for post in site.posts %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
 Hobbies
 =======
+
 * **Jazz Music** - I’m graduate of two musical schools, PSM in Plock and Jazz faculty in ZPSM in Warsaw. I’m arranging, composing and playing saxophone and piano from 10 years. I'm pianist and composer in my jazz quartet Stacja Augiasza.
