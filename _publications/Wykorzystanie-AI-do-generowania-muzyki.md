@@ -10,7 +10,7 @@ paperurl: 'https://www.mateuszdorobek.pl/files/Artykul-seminarium-dyplomowe.pdf'
 venue: 'Wydział Elektroniki i Technik Infromacyjnych, Politechnika Warszawska'
 citation: 'Mateusz Dorobek (2019) &quot;Wykorzystanie sztucznej inteligencji do generowania treści muzycznych&quot;'
 ---
-<embed src="https://www.mateuszdorobek.pl/files/Artykul-seminarium-dyplomowe.pdf" width="600" height="850" 
+<embed src="https://www.mateuszdorobek.pl/files/Artykul-seminarium-dyplomowe.pdf" width="100%" height="100%" 
  type="application/pdf">
 
 
