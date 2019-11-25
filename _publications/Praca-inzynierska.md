@@ -9,6 +9,7 @@ paperurl: 'https://www.mateuszdorobek.pl/files/Wykorzystanie_sztucznej_inteligen
 venue: 'Wydział Elektroniki i Technik Infromacyjnych, Politechnika Warszawska'
 citation: 'Mateusz Dorobek (2019) &quot;Wykorzystanie sztucznej inteligencji do generowania treści muzycznych&quot;'
 ---
-<embed src="https://www.mateuszdorobek.pl/files/Wykorzystanie_sztucznej_inteligencji_do_generowania_tresci_muzycznych.pdf" width="500" height="375" 
+<embed src="https://www.mateuszdorobek.pl/files/Wykorzystanie_sztucznej_inteligencji_do_generowania_tresci_muzycznych.pdf" width="600" height="850" 
  type="application/pdf">
+
 
