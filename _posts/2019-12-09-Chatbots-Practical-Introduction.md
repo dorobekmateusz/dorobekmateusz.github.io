@@ -22,12 +22,12 @@ One of the biggest advantages of chatbots is that they can be integrated parts o
 
 ##  NLP based chatbots
 
-There are two kinds of chatbots:
+There are two main types of chatbots:
 
-- **Rule-based chatbots** - based on keywords they find in input to recognize the question.
+- **Rule-based chatbots** - based on keywords that they find in input to recognize the question.
 - **AI-powered chatbots** - this one uses AI and NLP to plan a conversation to be more natural. More intelligent chatbots are able to plan a series of questions to narrow the subject and deliver a more suitable response. Of course, they are a more interesting topic to talk about.
 
-The core of the AI-powered chatbot system is natural language processing (NLP). Every text entered by the user is parsed to interpret and identifies what the user meant, and determine a set of responses based on this information and previous context. Chatbots are the most complex systems from a linguistic point of view because they contain:
+The core of the AI-powered chatbot system is natural language processing (NLP). Every text entered by the user is parsed to interpret and identify what the user meant. Then system determine a set of responses based on this information and previous context. Chatbots are the most complex systems from a linguistic point of view because they contain:
 
 - **Dialog** -  every response of chatbot system is supposed to be in  human-like dialog manner.
 
@@ -71,7 +71,7 @@ If you need to create a chatbot that serves the first level of communication wit
 
 **Efficiency** - chatbots are expected to work in real-time, but Knowledge Bases tend to be a huge document. In order to search such large sets, indexation can be helpful. Indexation creates a data structure that accelerates recovery operations in a database table at the cost of additional records and disk space. I think we should take into account that some words are more common than others. One of the indexation techniques that exploit this property in NLP is TF-IDF, which informs about the frequency of occurrence of terms, taking into account the proper balance of the meaning of the local term and its meaning in the context of the full collection of documents. 
 
-**Typos and text correction** -  Everyone makes mistakes, but humans are able to understand even the most misspelled text, but for a machine its a hard task. Luckily typos can be fixed easily with few tools. Most basic technique relays on finding similar words based a threshold on Levenshtein distance to accept correction. There are more techniques (Selection Mechanism, Language Model, etc.) Like always a hybrid of these techniques works the best. Here you can find some example of those methods Spell Correction.
+**Typos and text correction** -  Everyone makes mistakes, but humans are able to understand even the most misspelled text, but for a machine its a hard task. Luckily typos can be fixed easily with few tools. Most basic technique relays on finding similar words based a threshold on Levenshtein distance to accept correction. There are more techniques (Selection Mechanism, Language Model, etc.) Like always a hybrid of these techniques works the best.
 
 ## Answer generation and understanding
 
@@ -88,9 +88,9 @@ In order for a bot to perceive a text, it needs a well-structured data represent
 
 ![NLU&NLG](https://miro.medium.com/max/700/0*CssYMxCpdhLWxISD)
 
-**Natural Language Understanding (NLU)** is one of the biggest AI challenges. Decomposing unstructured input into a structure that the computer can understand. For human it's very natural to understand the intention despite small misspellings, shortcuts, swapped words or colloquialisms, but machines need more structured data. 
+**Natural Language Understanding (NLU)** is one of the biggest AI challenges. Decomposing unstructured input into a structure that the computer can understand. For human it's very natural to understand the intention despite small misspellings, shortcuts, swapped words or colloquialisms, but machines need more structured data. These NLP algorithms analyze syntax based on correlation, contextual dependencies, and part-of-speech tagging in text. 
 
-- **Distributional** approaches are using machine and deep learning and perform semantic tasks really well. These systems are broad and scalable, but they don't include a true understanding of the real meaning of sentences. These NLP algorithms analyze syntactic based on correlation, contextual dependencies, and part-of-speech tagging n text. 
+- **Distributional** approaches are using machine and deep learning and perform semantic tasks really well. These systems are broad and scalable, but they don't include a true understanding of the real meaning of sentences. These NLP algorithms analyze syntax based on correlation, contextual dependencies, and part-of-speech tagging in text. 
 
   I think that these approach will be able to deduct a language model based on enough data and proper architecture. Humans among the world use similar structures to describe the world, each language has nouns, verbs, adjectives and other parts-of-speech that means some kind of general rules were present in the process of creating a language. If only we will be able to model one language we will be able to model them all.
 
@@ -129,9 +129,9 @@ However, there are many techniques that help to protect personal data. Pseudonym
 - **Masking** allows you to cover part of the data while still retaining its uniqueness. This is often the case when hiding a piece of a credit card number, which is enough for the system or user to identify it.
 - **Tokenization** is about replacing private data with token with no extrinsic or exploitable meaning or value. The resulting token is always the same for the same input, so analytical correlations are still possible.
 - **Hashing** function assigns any large number a short number, always having a fixed size, non-specific, quasi-random value, the so-called irreversible shortcut. The resulting hash is always the same for the same input so that analytical correlations are still possible.
-- **Encryption** consists in encoding the data using a special decryption key, which should also be stored separately. 
+- **Encryption**  is the process of encoding a message or information in such a way that only authorized parties can access it and those who are not authorized cannot. Encryption scheme usually uses a pseudo-random encryption key generated by an algorithm.
 
-Even though there are plenty of techniques it's always a good idea to consult your data security with an expert in security domain or even a lawyer. AI ethics is a questionable topic, and now even the most advanced algorithms can behave unpredictably. A set of regulations to control chatbot is a must 
+Even though there are plenty of techniques it's always a good idea to consult your data security with an expert in security domain or even a lawyer. AI ethics is a questionable topic, and now even the most advanced algorithms can behave unpredictably. A set of regulations to control chatbot is a must.
 
 ## Chatbot frameworks
 
@@ -212,7 +212,7 @@ There are plenty of ready solutions, that help to create a chatbot system even w
 
 ## What is the chatbots future?
 
-I think that the general concept of chatbots will diversify and there will appear a lot of specialized tools that will be merged with our everyday utilities. What will you find more attractive a fridge or a talking fridge, that will buy your groceries online? The question answers itself.
+I think that the general concept of chatbots will diversify and there will appear a lot of specialized tools that will be merged with our everyday utilities. What will you find more attractive: a fridge or a talking one, that will buy your groceries online? The question answers itself.
 
 The main problem when using computer by the ordinary user is that he doesn't understand it and doesn't know how to tell the computer what to do. The development in UI is unstoppable, and it's only a matter of time when we will be able to communicate with a computer just like with other humans. 
 
@@ -224,6 +224,6 @@ In cases where there is no one good answer or decision, like self-driving cars, 
 
 Now we know that we can build chatbots on multiple levels - using ready solution, using framework or designing its architecture by yourself. Whether we are building a small project for fun or big application for corporation we will have similar problems with language representation. There are plenty techniques that helps machine understand natural language with statistical or knowledge domain background, requiring deeper understanding of machine and deep learning and language syntactics itself. To create chatbot from scratch you'll need enormous range of skills, so don't be afraid to trust solutions that works, learn how they work and try them out. 
 
-*The biggest winners don't create unique solutions, they use simple solutions in unique way.* 
+*The biggest winners don't create an unique solutions, they use simple solutions in unique way.* 
 
 9 Dec 2019 [Mateusz Dorobek](https://mateuszdorobek.pl/)
