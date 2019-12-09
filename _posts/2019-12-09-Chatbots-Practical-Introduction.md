@@ -95,7 +95,7 @@ In order for a bot to perceive a text, it needs a well-structured data represent
 
 - **Distributional** approaches are using machine and deep learning and perform semantic tasks really well. These systems are broad and scalable, but they don't include a true understanding of the real meaning of sentences. These NLP algorithms analyze syntactic based on correlation, contextual dependencies, and part-of-speech tagging n text. 
 
-  I think that these models will be able to deduct a language model based on enough data and proper models. Humans among the world use similar structures to describe the world, each language has nouns, verbs, adjectives and other parts-of-speech that means some kind of general rules were present in the process of creating a language. If only we will be able to model one language we will be able to model them all.
+  I think that these approach will be able to deduct a language model based on enough data and proper architecture. Humans among the world use similar structures to describe the world, each language has nouns, verbs, adjectives and other parts-of-speech that means some kind of general rules were present in the process of creating a language. If only we will be able to model one language we will be able to model them all.
 
 -  **Model Theoretical** approach assumes that language refers to the real world, thus we can model it. Understanding of language is it's strong point, but with a very limited scope. How does it work? For example:
 
@@ -171,7 +171,7 @@ Dialogflow supports learning new commands similar to those already implemented i
 
 <img src="https://techcrunch.com/wp-content/uploads/2018/09/Facebook-AI.png" alt="Wit" style="zoom: 80%;" />
 
-**Facebook Wit** is are meant to create a voice interface for hands-free apps for cocking, working out and home automation. Wit allows transferring voice commands to the JSON structure format (example below).
+**Facebook Wit** is meant to create a voice interface for hands-free apps for coocking, working out and home automation. Wit allows transferring voice commands to the JSON structure format (example below).
 
 ```python
 import wit
@@ -227,6 +227,6 @@ In cases where there is no one good answer or decision, like self-driving cars, 
 
 Now we know that we can build chatbots on multiple levels - using ready solution, using framework or designing its architecture by yourself. Whether we are building a small project for fun or big application for corporation we will have similar problems with language representation. There are plenty techniques that helps machine understand natural language with statistical or knowledge domain background, requiring deeper understanding of machine and deep learning and language syntactics itself. To create chatbot from scratch you'll need enormous range of skills, so don't be afraid to trust solutions that works, learn how they work and try them out. 
 
-***The biggest winners don't create unique solutions, they use simple solutions in unique way.*** 
+*The biggest winners don't create unique solutions, they use simple solutions in unique way.* 
 
 9 Dec 2019 [Mateusz Dorobek](https://mateuszdorobek.pl/)
