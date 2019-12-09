@@ -8,7 +8,8 @@ date: 2019-03-25
 location: "Hoża 51, 00-681 Warszawa, Polska"
 ---
 
-Moje wystąpienie na PyWaw#84 na którym opowiadałem o Generowaniu muzyki z użyciem sieci neuronowych / My presentation at PyWaw#84, where I was talking about music generation with neural networks.
+PL: Moje wystąpienie na PyWaw#84 na którym opowiadałem o Generowaniu muzyki z użyciem sieci neuronowych
+EN: My presentation at PyWaw#84, where I was talking about music generation with neural networks.
 
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/NytC56ZQhCo?autoplay=1">
