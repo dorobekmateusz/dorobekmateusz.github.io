@@ -10,9 +10,11 @@ tags:
 ---
 I've won Hack UPC "*Use of AI in real-life cases*" challenge. My team created a web app that makes your travel safer using ML model predicting severity of accidents. 
 
-Our submission on [Devpost](https://devpost.com/software/safely-sa5lte) and ML report for [McKinsey](https://mateuszdorobek.pl/posts/2019/10/McKinsey-Hack-The-Crash)
+
 
 <iframe width="420" height="285" src="https://www.youtube.com/embed/xaulZbueQoc?autoplay=1"></iframe>
+Our submission on [Devpost](https://devpost.com/software/safely-sa5lte) and [ML](https://mateuszdorobek.pl/posts/2019/10/McKinsey-Hack-The-Crash) report
+
 ## Inspiration
 
 Nowadays people travel without awareness. We would like to make travels safer, using Big Data and AI.
