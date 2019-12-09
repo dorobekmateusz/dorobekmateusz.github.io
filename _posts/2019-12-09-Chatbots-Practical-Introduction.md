@@ -99,9 +99,9 @@ In order for a bot to perceive a text, it needs a well-structured data represent
 
 -  **Model Theoretical** approach assumes that language refers to the real world, thus we can model it. Understanding of language is it's strong point, but with a very limited scope. How does it work? For example:
 
-  *What is the longest Asia bridge?* &rarr; `argmax(Bridges in Asia) `&rarr;*Danyang–Kunshan Grand Bridge*
+  *What is the longest Asia bridge?* &rarr; `argmax(Bridges in Asia)`&rarr;*Danyang–Kunshan Grand Bridge*
 
-	This approach is requiring a mathematical model created by experts, giving deep understanding in a narrow fields. But I think that if we will use language model in a simple form (binary search tree or sequence) it will be possible to train an encoder to automate the modeling process and use model-theoretical methods in a wider scope.
+  This approach is requiring a mathematical model created by experts, giving deep understanding in a narrow fields. But I think that if we will use language model in a simple form (binary search tree or sequence) it will be possible to train an encoder to automate the modeling process and use model-theoretical methods in a wider scope.
 
 - **Frame-based** approach, where the sentence is deconstructed into a tabular form. For example sentence "Greg needs access to the database" can be represented as a request transaction.
 
