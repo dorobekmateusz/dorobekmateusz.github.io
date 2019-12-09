@@ -97,7 +97,7 @@ In order for a bot to perceive a text, it needs a well-structured data represent
 
   I think that these approach will be able to deduct a language model based on enough data and proper architecture. Humans among the world use similar structures to describe the world, each language has nouns, verbs, adjectives and other parts-of-speech that means some kind of general rules were present in the process of creating a language. If only we will be able to model one language we will be able to model them all.
 
--  **Model Theoretical** approach assumes that language refers to the real world, thus we can model it. Understanding of language is it's strong point, but with a very limited scope. How does it work? For example:
+- **Model Theoretical** approach assumes that language refers to the real world, thus we can model it. Understanding of language is it's strong point, but with a very limited scope. How does it work? For example:
 
   *What is the longest Asia bridge?* &rarr; `argmax(Bridges in Asia)`&rarr;*Danyang–Kunshan Grand Bridge*
 
