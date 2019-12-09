@@ -10,7 +10,7 @@ tags:
 ---
 I had a pleasure to star in Daftcode clip, telling my story to encourage young people to develop their passions. I hope you'll enjoy.
 
-<iframe width="620" height="445"
+<iframe width="620" height="378"
 src="https://player.vimeo.com/video/368010845?autoplay=1">
 </iframe> 
 
