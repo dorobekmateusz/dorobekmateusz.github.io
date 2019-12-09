@@ -7,7 +7,8 @@ date: 2019-05-28
 location: "Koszykowa 75, 00-662 Warszawa, Polska"
 ---
 
-Warsztaty z Uczenia Maszynowego na wydziale MINI Politechniki Warszawskiej - 28 maja 2019 / Workshop on Machine Learning on faculty of Mathematics Warsaw University of Technology - 28 may 2019
+PL: Warsztaty z Uczenia Maszynowego na wydziale MINI Politechniki Warszawskiej - 28 maja 2019
+EN: Workshop on Machine Learning on faculty of Mathematics Warsaw University of Technology - 28 may 2019
 
 Materiały z warsztatów / Workshop materials: [Machine-Learning-Worhshops-MINI](https://github.com/SaxMan96/Machine-Learning-Workshop-MINI)
 
