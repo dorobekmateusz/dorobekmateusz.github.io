@@ -2,17 +2,16 @@
 title: "Music Generator"
 date: 2019-01-24
 permalink: /posts/2019/01/Music-Generator
+excerpt: 'Implementation of DCGAN music generating software using it’s image format - piano roll. It’s a part of my diploma thesis. I’ve presented its results on ICAISC 2019 in Zakopane.'
 tags:
 
   - DCGAN
   - Music Generation
   - Python
 ---
-Implementation of DCGAN music generating software using it's image format - piano roll. It's a part of my diploma thesis. I've presented its results on ICAISC 2019 in Zakopane.
+**UPDATE 11.19** - Preprint available ["Application of Deep Neural Networks to Music Composition Based on MIDI Datasets and Graphical Representation"](https://www.mateuszdorobek.pl/files/ICAISC2019_musicGAN_preprint.pdf)
 
-**LAST UPDATE** - Preprint available ["Application of Deep Neural Networks to Music Composition Based on MIDI Datasets and Graphical Representation"](https://www.mateuszdorobek.pl/files/ICAISC2019_musicGAN_preprint.pdf)
-
-**UPDATE** - New article ["Use of artificial intelligence for generating musical contents"](https://github.com/SaxMan96/Music-Generator/blob/master/Article.pdf) PL. 
+**UPDATE 07.19** - New article ["Use of artificial intelligence for generating musical contents"](https://github.com/SaxMan96/Music-Generator/blob/master/Article.pdf) PL. 
 
 Music at [SoundCloud](https://soundcloud.com/mateuszdorobek/sets/ai-music), Code on [GitHub](https://github.com/SaxMan96/Music-Generator)
 
