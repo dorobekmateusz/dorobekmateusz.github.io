@@ -2,7 +2,7 @@
 title: "Zastosowanie sieci neuronowych do generowania muzyki"
 collection: publications
 permalink: /publication/Artykul-seminarium-dyplomowe
-excerpt: 'Artykuł opisuje zastosowanie sieci neuronowych w generowaniu muzyki,
+excerpt: 'PL: Artykuł opisuje zastosowanie sieci neuronowych w generowaniu muzyki,
 zawiera także przegląd dostępnych technologii oraz opis istniejących
 architektur sieci neuronowych, które znalazłyby zastosowanie w tej dziedzinie.'
 date: 2018-12-14
