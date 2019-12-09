@@ -1,17 +1,14 @@
 ---
 title: "Chatbots - Practical Introduction"
-date: 2019-12-09
 permalink: /posts/2019/12/Chatbots-Practical-Introduction
+excerpt: 'In this post I want to introduce you to chatbots. What is a chatbot? How do they work? And how you can create them? You can find here both, technical descriptions and business solutions. Enjoy!'
+date: 2019-12-09
 tags:
 
   - Chatbots
   - NLP
   - Business
 ---
-
-In this post I want to introduce you to chatbots. What is a chatbot? How do they work? And how you can create them? You can find here both, technical descriptions and business solutions. Enjoy!
-
-
 
 <img src="https://cambiodigital-ol.com/wp-content/uploads/2019/07/chatbot.jpg" alt="chatbot" style="zoom:150%;" />
 
