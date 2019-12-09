@@ -18,8 +18,8 @@ Data comes in `.xmlx` format, but better to read it from csv file.
 df = pd.read_csv("Questions.csv", sep=";")
 df.head()
 ```
-| Question                                                     | Type    |
-| :----------------------------------------------------------- | :------ |
+| Question                                                    | Type  |
+| ----------------------------------------------------------- | ----- |
 | Is Hirschsprung disease a mendelian or a multifactorial disorder? | summary |
 | List signaling molecules (ligands) that interact with the receptor EGFR? | list    |
 | Is the protein Papilin secreted?                             | yesno   |

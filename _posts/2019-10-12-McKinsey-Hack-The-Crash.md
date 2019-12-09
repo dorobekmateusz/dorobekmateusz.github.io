@@ -2,14 +2,13 @@
 title: 'McKinsey - Hack the crash'
 date: 2019-10-12
 permalink: /posts/2019/10/McKinsey-Hack-The-Crash
+excert: 'Hack UPC 2019 ML Report for McKinsey. Predicting damage inflicted in traffic accidents.'
 tags:
 
   - HackUPC
   - Safely
   - Classification
 ---
-Hack UPC 2019 ML Report for McKinsey. Predicting damage inflicted in traffic accidents.
-
 ![img](https://raw.githubusercontent.com/Safe-ly/HACK-UPC-ML/master/logo.png)
 
 ## Data Preprocessing

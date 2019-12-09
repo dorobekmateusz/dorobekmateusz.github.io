@@ -2,14 +2,13 @@
 title: 'Feature Extraction in NLP'
 date: 2019-11-20
 permalink: /posts/2019/11/Feature-Extraction-NLP
+excerpt: 'Short explanation of what is feature extraction and how it differs from other data preprocessing techniques in area of Natural Language Processing.'
 tags:
 
   - NLP
   - Feature Extraction
   - Python
 ---
-Short explanation of what is feature extraction and how it differs from other data preprocessing techniques in area of Natural Language Processing
-
 ## What is Feature Extraction?
 
 One of the most important parts of data preprocessing is feature extraction, which is a process of reducing data dimensionality by modifying variables describing data such way, that created set of features (feature vector) describe data model accurately and overall in a direct way. Thanks to feature extraction data is easier to compare thus easier to analyze. 

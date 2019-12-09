@@ -2,16 +2,13 @@
 title: "Safely - The Intelligent Travel Assistant"
 date: 2019-10-13
 permalink: /posts/2019/10/HackUPC-2019-Safely
+excerpt: 'I’ve won Hack UPC “Use of AI in real-life cases” challenge. My team created a web app that makes your travel safer using ML model predicting severity of accidents.'
 tags:
 
   - HackUPC
   - Safely
   - Classification
 ---
-I've won Hack UPC "*Use of AI in real-life cases*" challenge. My team created a web app that makes your travel safer using ML model predicting severity of accidents. 
-
-
-
 <iframe width="420" height="285" src="https://www.youtube.com/embed/xaulZbueQoc?autoplay=1"></iframe>
 Our submission on [Devpost](https://devpost.com/software/safely-sa5lte) and [ML](https://mateuszdorobek.pl/posts/2019/10/McKinsey-Hack-The-Crash) report
 
