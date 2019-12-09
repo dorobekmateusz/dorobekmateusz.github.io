@@ -1,7 +1,7 @@
 ---
 title: "Chatbots - Practical Introduction"
 date: 2019-12-09
-permalink: /posts/2019/12/Chatbots-Practical-Introduction.md
+permalink: /posts/2019/12/Chatbots-Practical-Introduction
 tags:
 
   - Chatbots
