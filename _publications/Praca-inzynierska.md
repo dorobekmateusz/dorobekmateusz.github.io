@@ -14,10 +14,6 @@ Artykuł dostępny również na [ResearchGate](https://www.researchgate.net/publ
 
 Repozytorium dostępne na: [GitHub](https://github.com/SaxMan96/Music-Generator)
 
-*Proces uczenia się sieci neuronowej DCGAN:*
-
-<img src="https://github.com/SaxMan96/Music-Generator/raw/master/images/gif_short.gif" alt="Gif" align="middle">
-
 <embed src="https://www.mateuszdorobek.pl/files/Wykorzystanie_sztucznej_inteligencji_do_generowania_tresci_muzycznych.pdf" width="100%" height="100%" 
  type="application/pdf">
 
