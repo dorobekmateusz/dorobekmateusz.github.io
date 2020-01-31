@@ -15,9 +15,11 @@ Workshop materials: [Machine-Learning-Worhshops-MINI](https://github.com/SaxMan9
 src="https://www.youtube.com/embed/pKWFBZafuK8?autoplay=1">
 </iframe>
 
-# Running the notebook
+
+## Running the notebook
 
 If you want to run your notebook from the workshop remotely click on the banner at the top and if you want to run it locally you will have to do some things:
+
 ## Fork
 
 Fork my repo
