@@ -7,7 +7,15 @@ permalink: /teaching/MLWorkshop
 
 Workshop on Machine Learning on faculty of Mathematics Warsaw University of Technology - 28 May 2019. Run the notebook from workshops here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SaxMan96/Machine-Learning-Workshop-MINI/master?filepath=WorkShopMerge.ipynb) 
 
-# Machine Learning Workshop Poster PL
+## Materials
+
+Workshop materials: [Machine-Learning-Worhshops-MINI](https://github.com/SaxMan96/Machine-Learning-Workshop-MINI)
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/pKWFBZafuK8?autoplay=1">
+</iframe>
+
+## Machine Learning Workshop Poster PL
 
 ![Plakat](https://raw.githubusercontent.com/SaxMan96/Machine-Learning-Workshop-MINI/master/plakat.jpg)
 
