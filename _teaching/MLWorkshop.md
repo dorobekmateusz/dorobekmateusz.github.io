@@ -5,7 +5,7 @@ type: "Machine Learning Workshops Materials."
 permalink: /teaching/MLWorkshop
 ---
 
-Workshop on Machine Learning on faculty of Mathematics Warsaw University of Technology - 28 May 2019. Run the notebook from workshops here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SaxMan96/Machine-Learning-Workshop-MINI/master?filepath=WorkShopMerge.ipynb) 
+Workshop on Machine Learning at the Faculty of Mathematics, Warsaw University of Technology - 28 May 2019. Run the notebook from workshops here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SaxMan96/Machine-Learning-Workshop-MINI/master?filepath=WorkShopMerge.ipynb) 
 
 ## Materials
 

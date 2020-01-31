@@ -1,14 +1,13 @@
 ---
 title: "Python Course"
 collection: teaching
-type: "Python Begginer to Intermediate Course materials and tasks for my students."
+type: "Python Beginner to Intermediate Course materials and tasks for my students."
 permalink: /teaching/Python
 ---
 
-I'm Python programmer with strong technical background. I'm using python in my everyday work as a tool for building aplications, webscrapping, artificial intelligence, music and many other interesting stuff. Repository [Python-Course](https://github.com/SaxMan96/Python-Course) is a handy database with all materials and tasks for my students.
+I use Python in my everyday work as a tool for building applications, web scraping, artificial intelligence, music, and many other interesting things. My [Python-Course](https://github.com/SaxMan96/Python-Course) repository is a handy database with learning materials and tasks for my students.
 
-# About:
-I'm Python programmer with strong technical background, and I like to teach people.  I've created a GitHub repository [Python-Course](https://github.com/SaxMan96/Python-Course) with materials and tasks for my students. I'm using python in my everyday work as a tool for building aplications, webscrapping, artificial intelligence, music and many other interesting stuff. Check out my Begginer to Intermediate Course.
+# Contact Me
 
 If you want to be my student:
 
