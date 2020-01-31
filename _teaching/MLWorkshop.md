@@ -69,3 +69,12 @@ This command will create an environment and install the packages.
 - Type ``activate workshop-env`` (If no such command is found, it means you have to add conda to the environment variables - [link](https://stackoverflow.com/questions/44597662/conda-command-is-not-recognized-on-windows-10)) 
 
 - Then just run our notebook with a command `jupiter notebook`then choose `WorkShopMerge.ipynb` and enjoy our notebook.
+
+## Acknowledgements
+
+**Paulina Tomaszewska** - Linear Regression
+
+**Aleksander Tym** - Clustering
+
+**Michał Fijałkowski** - Organization and Marketing
+
