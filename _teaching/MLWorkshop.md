@@ -62,5 +62,12 @@ conda env create -f workshop-env.yml
 
 This command will create an environment and install the packages.
 
-Once you've managed this, enter the repository folder, click `Ctrl + L`, type `cmd`, press Enter. If you're not scared of what popped up on the screen, that's great, let's go. 
-Type ``activate workshop-env`` (If no such command is found, it means you have to add conda to the environment variables - [link](https://stackoverflow.com/questions/44597662/conda-command-is-not-recognized-on-windows-10)) Then just run our notebook with a command `jupiter notebook`then choose `WorkShopMerge.ipynb` and enjoy our notebook.
+## Running it up
+
+- Once you've managed this, enter the repository directory, click `Ctrl + L`, type `cmd`, press Enter. If you are on Linux or Mac open command line in folder with forked repo.
+
+- If you're not scared of what popped up on the screen, that's great, let's go. 
+
+- Type ``activate workshop-env`` (If no such command is found, it means you have to add conda to the environment variables - [link](https://stackoverflow.com/questions/44597662/conda-command-is-not-recognized-on-windows-10)) 
+
+- Then just run our notebook with a command `jupiter notebook`then choose `WorkShopMerge.ipynb` and enjoy our notebook.
