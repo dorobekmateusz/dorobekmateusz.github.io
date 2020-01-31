@@ -1,19 +1,21 @@
 ---
 title: "Python Course"
 collection: teaching
-type: "Begginer to Intermediate"
+type: "Python Begginer to Intermediate Course materials and tasks for my students."
 permalink: /teaching/Python
 ---
 
-I'm Python programmer with strong technical background, and I like to teach people.  I've created a repository [Python-Course](https://github.com/SaxMan96/Python-Course) with materials and tasks for my students. I'm using python in my everyday work as a tool for building aplications, webscrapping, artificial intelligence, music and many other interesting stuff. Check out **Python Begginer to Intermediate Course** materials and tasks for my students.
+I'm Python programmer with strong technical background. I'm using python in my everyday work as a tool for building aplications, webscrapping, artificial intelligence, music and many other interesting stuff. Repository [Python-Course](https://github.com/SaxMan96/Python-Course) is a handy database with all materials and tasks for my students.
 
 # About:
 I'm Python programmer with strong technical background, and I like to teach people.  I've created a GitHub repository [Python-Course](https://github.com/SaxMan96/Python-Course) with materials and tasks for my students. I'm using python in my everyday work as a tool for building aplications, webscrapping, artificial intelligence, music and many other interesting stuff. Check out my Begginer to Intermediate Course.
 
-If you want to be my student visit my profile on [E-korepetycje](https://www.e-korepetycje.net/mateuszdorobek)
-write me an email: `dorobekmateusz(at)gmail.com`
-contact me via: [LinkedIn](https://www.linkedin.com/in/mateuszdorobek/) 
-checout my website: [www.mateuszdorobek.pl](https://www.mateuszdorobek.pl)
+If you want to be my student:
+
+- visit my profile on [E-korepetycje](https://www.e-korepetycje.net/mateuszdorobek)
+- write me an email: `dorobekmateusz(at)gmail.com`
+- contact me via: [LinkedIn](https://www.linkedin.com/in/mateuszdorobek/) 
+- checout my website: [www.mateuszdorobek.pl](https://www.mateuszdorobek.pl)
 
 # Environment
 
