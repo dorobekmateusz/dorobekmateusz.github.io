@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Course"
+title: "Machine Learning Workshop"
 collection: teaching
 type: "Machine Learning Workshops Materials."
 permalink: /teaching/MLWorkshop
