@@ -1,8 +1,9 @@
 ---
 title: "PL Warsztaty ML MINI PW"
 collection: talks
-type: "Tutorial"
+type: "Talk"
 permalink: /talks/MINI-Workshops-ML-2019
+venue: "MINI PW"
 date: 2019-05-28
 location: "Koszykowa 75, 00-662 Warszawa, Polska"
 ---
