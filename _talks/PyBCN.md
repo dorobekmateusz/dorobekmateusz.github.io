@@ -20,8 +20,8 @@ A presentation of my master thesis project using language models to represent Ja
 
 I'll tell you about jazz chords progressions generation using recurrent neural networks. Starting with "what is a chord?" I'll go through "How we can represent chord?" and "How we can embed chords?". There will be a lot about music and how it is represented and processed and understood by computers. I'll show how I've prepared the music data and how to use recurrent neural networks to generate jazz chords sequences. I will analyze the results and discuss the future of music in a world of AI.
 
-- Repo of project with [Jazz Chords Generation](https://github.com/saxMan96/Harmony-Analyzer/)
+- Repo of [Jazz Chords Generation](https://github.com/saxMan96/Harmony-Analyzer/) project
 
-- Repo of the project with [Music Generation](https://github.com/SaxMan96/Music-Generator/) using DCGANs
+- Repo of the my other project: [Music Generation](https://github.com/SaxMan96/Music-Generator/) using DCGANs
 
-- [Presentation slides](https://www.canva.com/design/DADw1z5xwcQ/E49nMZMToabP71z-MfOCIA/view?utm_content=DADw1z5xwcQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+- [Slides](https://www.canva.com/design/DADw1z5xwcQ/E49nMZMToabP71z-MfOCIA/view?utm_content=DADw1z5xwcQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) used during presentation.
