@@ -7,4 +7,5 @@ redirect_from:
   - /resume
 ---
 
-<embed src="https://www.mateuszdorobek.pl/files/Mateusz_Dorobek_Resume.pdf" type="application/pdf" width="100%" height="600px" />
+<iframe src="https://www.mateuszdorobek.pl/files/Mateusz_Dorobek_Resume.pdf" scrolling="no" width="80%" height="1200" />
+
