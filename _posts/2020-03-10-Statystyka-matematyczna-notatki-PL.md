@@ -3,6 +3,7 @@ title: "Statystyka Matematyczna - Notatki"
 permalink: /posts/2020/03/Statystyka-matematyczna-notatki-PL
 excerpt: 'Notatki Statystyka Matematyczna'
 date: 2020-03-10
+mathjax: true
 tags:
 
   - Statistics
