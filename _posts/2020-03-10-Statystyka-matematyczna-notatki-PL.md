@@ -32,9 +32,11 @@ tags:
 Niech $$X_1, ... X_n$$ będzie próbką prostą z rozkładu o dystybuancie $F$ 
 
 Wówczas:
+
 $$
 P\left(\lim _{t \rightarrow \infty} \sup _{t \in R}|\hat{F_{n}}(t)-F(t)|=0\right)=1
 $$
+
 Dystrybuanta empiryczna zbiega do teoretycznej.
 
 # Definicje
