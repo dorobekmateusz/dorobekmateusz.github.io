@@ -11,6 +11,26 @@ tags:
   - Notes
 ---
 
+# Rozkłady
+
+| Nazwa                     | Oznaczenie                                                   | Rozkład                                                      | Miary                                                | Funkcja tworząca momenty | Właściwości                                                  |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------ |
+| Jednopunktowy | $\delta(x_0)$ |  | $EX = x_0, VX = 0$ |  |  |
+| Bernoulliego (Dwumianowy) | $Bin(n,p)\\n - \text{liczba prób}\\p -  \text{pstwo. sukcesu}$ | $f(k)=\left(\begin{array}{l}n \\ k\end{array}\right) p^{k}(1-p)^{n-k}$ | $EX=np \\ VX=np(1-p)$                                | $\varphi_{X}(t)=q+p e^t$ | n - duże p-małe to $Bin(n,p) \sim Poiss(np)$                 |
+| Jednostajny               | $U(a,b) \\\ a, b - \text{krance przedziału}$                 | $f(x) = \frac{1}{b-a}\mathbb{1}_{(a,b)}(x)$ | $EX = \frac{1}{b-a}\\VX = \frac{(b-a)^2}{12}$        | $\varphi_{X}(t)=\frac{e^{ t b}-e^{ t a}}{ t(b-a)}$ |                                                              |
+| Normalny (Gaussa)         | $N(\mu,\sigma)$                                              | $f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$ | $EX = \mu\\VX=\sigma^2$                              |                                    | $\bar{X} \sim N(\mu,\frac{\sigma}{\sqrt{n}})\\ \sum{X^2}\sim \Chi^2_n$ |
+| Poissona                  | $Poiss(\lambda)$                                             | $f(k,\lambda) = \frac{\lambda^ke^{-\lambda}}{k!}\\\lambda - \text{oczekiwana liczba zdarzeń}\\k - \text{faktyczna liczba zdarzeń}$ | $EX = \lambda\\VX=\lambda$                           | $\varphi_{X}(t)=e^{\lambda\left(e^{ t}-1\right)}$ |                                                              |
+| Wykładniczy               | $Exp(\lambda)$                                               | $f(x) = \lambda e^{-\lambda x}\\F(x) = 1-e^{-\lambda x}$    | $EX=\frac{1}{\lambda}\\VX = \frac{1}{\lambda^2}$     | $\varphi_{X}(t)=\frac{\lambda}{\lambda-t}$ | $Exp(\lambda)=\Gamma(1,\lambda)$                             |
+| Gamma                     | $\Gamma(\alpha,\beta)$                                       | $f(x)=\frac{\beta^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e^{-\beta x}\mathbb{1}_{(0,\infty)}(x)\\\Gamma(\alpha)=\int_{0}^{\infty}x^{\alpha-1}e^{-x}dx$ | $EX=\frac{\alpha}{\beta}\\VX=\frac{\alpha}{\beta^2}$ | $\varphi_{X}(t)=\frac{1}{(1-t \lambda)^{p}}$ | $\Gamma(1)=1\\\Gamma(n+1)=n! \::n\in N\\\Gamma(\frac{1}{2})=\sqrt{\pi}$ |
+| Chi-kwadrat               | $\Chi^2_n$                                                   | $f(x)=\left\{\begin{matrix}\frac{1}{2^{n/2}\Gamma(\frac{n}{2})}x^{\frac{n}{2}-1}e^{\frac{-x}{2}}\text{dla }x>0\\ 0\text{ w.p.p.}\end{matrix}\right.$ | $EX = n\\VX=2n$                                      | $\varphi_{X}(t)=(1-2 t)^{-n / 2} \text{ dla } 2 t<1$ | $X=\sum Z_i^2\;Z_i\sim N(0,1)\;(Z_1,\dots,Z_n) \:iid\\X\sim \Chi^2_n\; n\bar Z^2 = (\sqrt{n} \bar{Z})^2\sim \Chi^2_1\; \Chi^2_n \sim \Gamma(\frac{n}{2}, \frac{1}{2})$ |
+| T-studenta                | $t(n)$                                                       | $f(x)=\frac{\Gamma(\frac{n+1}{2})}{\sqrt{n\pi}\:\Gamma(\frac{n}{2})}(1+\frac{x^2}{n})^{-\frac{n+1}{2}}$ | $EX=0\;n>1\\VX=\frac{n}{n-2}\;n>2$                 | (nieokreślona) | $T=\frac{Z}{\sqrt{\frac{X}{n}}}\;Z\sim N(0,1)\;X\sim \Chi^2_n$ |
+| F-Snedecora               | $F^{[n,m]}$                                                  | $f(x)=\frac{\sqrt{\frac{\left(d_{1} x\right)^{d_{1}} d_{2}^{d_{2}}}{\left(d_{1} x+d_{2}\right)^{d_{1}+d_{2}}}}}{x \mathrm{B}\left(\frac{d_{1}}{2}, \frac{d_{2}}{2}\right)}$ | $EX=\frac{m}{m-2} \;m>2\\VX=\frac{2 m^{2}\left(n+m-2\right)}{n\left(m-2\right)^{2}\left(m-4\right)} \; m>4$ |                                    | $F = \frac{\frac{X}{n}}{\frac{Y}{m}}\;X\sim \Chi^2_n\;Y\sim \Chi^2_m$ |
+| Cauchyego                 | $C(m,\lambda)$                                               | $f(x)=\frac{1}{\pi}\frac{\lambda^2}{\lambda^2+(x-m)^2}$      | $EX$ i $VX$ nie istnieją. | $\varphi_{X}(t)=e^{t m-\lambda}$ | $C = \frac{X_1}{X_2}\; X_1,X_x\sim N(0,1)\\C\sim C(m,\lambda) $ |
+| Beta                      | $\Beta(\alpha,\beta)$                                        | $f(x)=\frac{1}{\Beta(\alpha,\beta)}x^{\alpha-1}(1-x)^{\beta-1}\mathbb{1}_{(0,1)}(x)\\\Beta(\alpha,\beta)=\frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}\;\Beta(\alpha,\beta)=\int_0^1t^{\alpha-1}(1-t)^{\beta-1}dt$ | $EX = \frac{\alpha}{\alpha+\beta}\\VX=\frac{\alpha \beta}{(\alpha+\beta)^{2}(\alpha+\beta+1)}$ |                                    |                                                              |
+| Rayleigha                 | $Ra(\sigma)$                                                 | $f_\sigma(x)=\frac{x}{\sigma^2}e^{-\frac{x^2}{2\sigma^2}}\mathbb{1}_{(0,\infty)}(x)$ | $EX=\sigma\sqrt{\frac{\pi}{2}}\\VX=\frac{4-\pi}{2}\sigma^2$ |                                    |                                                              |
+
+
+
 # Cytaty
 
 "Statytsyki mają założenia"
