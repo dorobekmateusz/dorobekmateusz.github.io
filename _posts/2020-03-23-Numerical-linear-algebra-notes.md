@@ -1,11 +1,10 @@
 ---
-title: "Numerical Linear Algebra"
-permalink: /posts/2020/03/Numerical-linear-algebra-notes
-excerpt: 'Notes that I've made with help of professors and collegues during my Erasmus Exchange in University of Barcelona.'
+title: 'Numerical Linear Algebra'
+permalink: '/posts/2020/03/Numerical-linear-algebra-notes'
+excerpt: "Notes that I've made with help of professors and collegues during my Erasmus exchange in University of Barcelona."
 date: 2020-03-23
 mathjax: true
 tags:
-
   - Numerical Linear Algebra
   - Mathematics
   - Notes
@@ -13,10 +12,10 @@ tags:
 
 # Typical Problems
 
-- Linear System: $Ax = b$
-- Least Squares Problem $||Ax - b||_{2}$
-- Eigenvalue problem $Ax = \lambda x$, where $x$ - vector $\lambda$ - scalar
-- Singular Value problem $A^T Ax = \lambda x$
+- Linear System: $$Ax = b$$
+- Least Squares Problem $$\lVert Ax - b\lVert_{2}$$
+- Eigenvalue problem $$Ax = \lambda x$$, where $$$x$ - vector $$\lambda$$ - scalar
+- Singular Value problem $$A^T Ax = \lambda x$$
 
 # Definitions
 
