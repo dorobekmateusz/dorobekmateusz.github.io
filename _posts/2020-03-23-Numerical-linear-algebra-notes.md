@@ -1,10 +1,11 @@
 ---
-title: 'Numerical Linear Algebra'
-permalink: '/posts/2020/03/Numerical-linear-algebra-notes'
-excerpt: "Notes that I've made with help of professors and collegues during my Erasmus exchange in University of Barcelona."
+title: "Numerical Linear Algebra"
+permalink: ""/posts/2020/03/Numerical-linear-algebra-notes"
+excerpt: "Notes that I've made with help of professors and collegues during my Erasmus Exchange in University of Barcelona."
 date: 2020-03-23
 mathjax: true
 tags:
+
   - Numerical Linear Algebra
   - Mathematics
   - Notes
@@ -12,10 +13,10 @@ tags:
 
 # Typical Problems
 
-- Linear System: $$Ax = b$$
-- Least Squares Problem $$\lVert Ax - b\lVert_{2}$$
-- Eigenvalue problem $$Ax = \lambda x$$, where $$$x$ - vector $$\lambda$$ - scalar
-- Singular Value problem $$A^T Ax = \lambda x$$
+- Linear System: $Ax = b$
+- Least Squares Problem $\lVert Ax - b\lVert_{2}$
+- Eigenvalue problem $Ax = \lambda x$, where $x$ - vector $\lambda$ - scalar
+- Singular Value problem $A^T Ax = \lambda x$
 
 # Definitions
 
@@ -28,30 +29,31 @@ A square matrix that is not singular, i.e. one that has a matrix inverse. Nonsin
 Solve directly:
 
 $$
-    \left(\begin{array}{lll}
-    {a} & {b} & {c} \\
-    {0} & {d} & {e} \\
-    {0} & {0} & {f}
-    \end{array}\right)
-    \left(\begin{array}{lll}
-    {x} & {y} & {z} \\
-    {0} & {y} & {v} \\
-    {0} & {0} & {w}
-    \end{array}\right)
-    =
-    \left(\begin{array}{lll}
-    {1} & {0} & {0} \\
-    {0} & {1} & {0} \\
-    {0} & {0} & {1}
-    \end{array}\right)
+\left(\begin{array}{lll}
+{a} & {b} & {c} \\
+{0} & {d} & {e} \\
+{0} & {0} & {f}
+\end{array}\right)
+
+\left(\begin{array}{lll}
+{x} & {y} & {z} \\
+{0} & {y} & {v} \\
+{0} & {0} & {w}
+\end{array}\right)
+=
+\left(\begin{array}{lll}
+{1} & {0} & {0} \\
+{0} & {1} & {0} \\
+{0} & {0} & {1}
+\end{array}\right)
 $$
 
 $$
-    \left(\begin{array}{lll}
-    {1 / a} & {-b /(a d)} & {(b e-c d) /(a f d)} \\
-    {0} & {1 / d} & {-e /(f d)} \\
-    {0} & {0} & {1 / f}
-    \end{array}\right)
+\left(\begin{array}{lll}
+{1 / a} & {-b /(a d)} & {(b e-c d) /(a f d)} \\
+{0} & {1 / d} & {-e /(f d)} \\
+{0} & {0} & {1 / f}
+\end{array}\right)
 $$
 
 from which we see directly that the matrix is invertible if all $a,d$ and $f$ are different from zero
@@ -90,53 +92,67 @@ $$
   for some scalar $\lambda,$ then $\lambda$ is called the eigenvalue of A with corresponding (right) eigenvector $\mathbf{X}$.
 
   Letting A be a $k \times k$ square matrix
+
+
 $$
-  \left[\begin{array}{cccc}
-  {a_{11}} & {a_{12}} & {\cdots} & {a_{1 k}} \\
-  {a_{21}} & {a_{22}} & {\cdots} & {a_{2 k}} \\
-  {\vdots} & {\vdots} & {\ddots} & {\vdots} \\
-  {a_{k 1}} & {a_{k 2}} & {\cdots} & {a_{k k}}
-  \end{array}\right]
+\left[\begin{array}{cccc}
+{a_{11}} & {a_{12}} & {\cdots} & {a_{1 k}} \\
+{a_{21}} & {a_{22}} & {\cdots} & {a_{2 k}} \\
+{\vdots} & {\vdots} & {\ddots} & {\vdots} \\
+{a_{k 1}} & {a_{k 2}} & {\cdots} & {a_{k k}}
+\end{array}\right]
 $$
-  with eigenvalue $\lambda,$ then the corresponding eigenvectors satisfy
+
+
+with eigenvalue $\lambda,$ then the corresponding eigenvectors satisfy
+
+
 $$
-  \left[\begin{array}{cccc}
-  {a_{11}} & {a_{12}} & {\cdots} & {a_{1 k}} \\
-  {a_{21}} & {a_{22}} & {\cdots} & {a_{2 k}} \\
-  {\vdots} & {\vdots} & {\ddots} & {\vdots} \\
-  {a_{k 1}} & {a_{k 2}} & {\cdots} & {a_{k k}}
-  \end{array}\right]\left[\begin{array}{c}
-  {x_{1}} \\
-  {x_{2}} \\
-  {\vdots} \\
-  {x_{k}}
-  \end{array}\right]=\lambda\left[\begin{array}{c}
-  {x_{1}} \\
-  {x_{2}} \\
-  {\vdots} \\
-  {x_{k}}
-  \end{array}\right]
+\left[\begin{array}{cccc}
+{a_{11}} & {a_{12}} & {\cdots} & {a_{1 k}} \\
+{a_{21}} & {a_{22}} & {\cdots} & {a_{2 k}} \\
+{\vdots} & {\vdots} & {\ddots} & {\vdots} \\
+{a_{k 1}} & {a_{k 2}} & {\cdots} & {a_{k k}}
+\end{array}\right]\left[\begin{array}{c}
+{x_{1}} \\
+{x_{2}} \\
+{\vdots} \\
+{x_{k}}
+\end{array}\right]=\lambda\left[\begin{array}{c}
+{x_{1}} \\
+{x_{2}} \\
+{\vdots} \\
+{x_{k}}
+\end{array}\right]
 $$
-  which is equivalent to the homogeneous system
+
+
+which is equivalent to the homogeneous system
+
+
 $$
-  \left[\begin{array}{cccc}
-  {a_{11}-\lambda} & {a_{12}} & {\cdots} & {a_{1 k}} \\
-  {a_{21}} & {a_{22}-\lambda} & {\cdots} & {a_{2 k}} \\
-  {\vdots} & {\vdots} & {\ddots} & {\vdots} \\
-  {a_{k 1}} & {a_{k 2}} & {\cdots} & {a_{k k}-\lambda}
-  \end{array}\right]\left[\begin{array}{c}
-  {x_{1}} \\
-  {x_{2}} \\
-  {\vdots} \\
-  {x_{k}}
-  \end{array}\right]=\left[\begin{array}{c}
-  {0} \\
-  {0} \\
-  {\vdots} \\
-  {0}
-  \end{array}\right]
+\left[\begin{array}{cccc}
+{a_{11}-\lambda} & {a_{12}} & {\cdots} & {a_{1 k}} \\
+{a_{21}} & {a_{22}-\lambda} & {\cdots} & {a_{2 k}} \\
+{\vdots} & {\vdots} & {\ddots} & {\vdots} \\
+{a_{k 1}} & {a_{k 2}} & {\cdots} & {a_{k k}-\lambda}
+\end{array}\right]\left[\begin{array}{c}
+{x_{1}} \\
+{x_{2}} \\
+{\vdots} \\
+{x_{k}}
+\end{array}\right]=\left[\begin{array}{c}
+{0} \\
+{0} \\
+{\vdots} \\
+{0}
+\end{array}\right]
 $$
-  Equation ( 4) can be written compactly as
+
+
+Equation ( 4) can be written compactly as
+
+
 $$
 (A-\lambda I) X=0
 $$
@@ -267,41 +283,43 @@ $$
 
 ### Example
 
-$A = \left[\begin{array}{ccc}
+$$
+A = \left[\begin{array}{ccc}
 {4} & {12} & {-16} \\
 {12} & {37} & {-43} \\
 {-16} & {-43} & {98}
-\end{array}\right]$ 
+\end{array}\right]
+$$
 
 - $i = 1:$
 
 $$
-  \begin{aligned}
-    & l_{1,1} = \sqrt{a_{1,1}} = 2 \\
-    & l_{2,1} = \frac{a_{2,1}}{l_{1,1}} = 6 \\
-    & l_{3,1} = \frac{a_{3,1}}{l_{1,1}} = -8
-    \end{aligned} \quad L = \left[ \begin{array} { r r r } { 2 } & { 0 } & { 0 } \\ { 6 } & { ? } & { 0 } \\ { - 8 } & { ? } & { ? } \end{array} \right]
+\begin{aligned}
+& l_{1,1} = \sqrt{a_{1,1}} = 2 \\
+& l_{2,1} = \frac{a_{2,1}}{l_{1,1}} = 6 \\
+& l_{3,1} = \frac{a_{3,1}}{l_{1,1}} = -8
+\end{aligned} \quad L = \left[ \begin{array} { r r r } { 2 } & { 0 } & { 0 } \\ { 6 } & { ? } & { 0 } \\ { - 8 } & { ? } & { ? } \end{array} \right]
 $$
 
 - $i = 2:$
 
 $$
-  \begin{aligned}
-    & { l _ { 2,2 } = \sqrt { a _ { 2,2 } -  l _ { 2,1 } ^ { 2 }} }  = \sqrt{37 - 6^{2}} = 1\\ 
-    & { l_ { 3,2 } = \left( a _ { 3,2 } - l _ { 2 , 1 } \cdot l _ { 3,1 } \right) / l _ { 2,2 } } = (- 43 - (6 \cdot (- 8))/1 = 5 \end{aligned}
-     \quad L = \left[ \begin{array} { r r r } { 2 } & { 0 } & { 0 } \\ { 6 } & { 1 } & { 0 } \\ { - 8 } & { 5 } & { ? } \end{array} \right] 
+\begin{aligned}
+& { l _ { 2,2 } = \sqrt { a _ { 2,2 } -  l _ { 2,1 } ^ { 2 }} }  = \sqrt{37 - 6^{2}} = 1\\ 
+& { l_ { 3,2 } = \left( a _ { 3,2 } - l _ { 2 , 1 } \cdot l _ { 3,1 } \right) / l _ { 2,2 } } = (- 43 - (6 \cdot (- 8))/1 = 5 \end{aligned}
+\quad L = \left[ \begin{array} { r r r } { 2 } & { 0 } & { 0 } \\ { 6 } & { 1 } & { 0 } \\ { - 8 } & { 5 } & { ? } \end{array} \right] 
 $$
 
 - $i = 3$
 
 $$
 \begin{aligned} 
-  l _ { 3,3 } & = \sqrt { a _ { 3,3 } - \left( l _ { 3,1 } ^ { 2 } + l _ { 3,2 } ^ { 2 } \right) } = \\ & = \sqrt { 98 - \left( ( - 8 ) ^ { 2 } + 5 ^ { 2 } \right) } = \\ & = \sqrt { 98 - ( 64 + 25 ) } = \\ & = \sqrt { 98 - 89 } = \sqrt { 9 } = 3 \end{aligned}
+l _ { 3,3 } & = \sqrt { a _ { 3,3 } - \left( l _ { 3,1 } ^ { 2 } + l _ { 3,2 } ^ { 2 } \right) } = \\ & = \sqrt { 98 - \left( ( - 8 ) ^ { 2 } + 5 ^ { 2 } \right) } = \\ & = \sqrt { 98 - ( 64 + 25 ) } = \\ & = \sqrt { 98 - 89 } = \sqrt { 9 } = 3 \end{aligned}
 $$
 
 $$
 L = \left[ \begin{array} { r r r } { 2 } & { 0 } & { 0 } \\ { 6 } & { 1 } & { 0 } \\ { - 8 } & { 5 } & { 3 } \end{array} \right]
-	\quad L^{T} = \left[ \begin{array} { r r r } { 2 } & { 6 } & { -8 } \\ { 0 } & { 1 } & { 5 } \\ { 0 } & { 0 } & { 3 } \end{array} \right]
+\quad L^{T} = \left[ \begin{array} { r r r } { 2 } & { 6 } & { -8 } \\ { 0 } & { 1 } & { 5 } \\ { 0 } & { 0 } & { 3 } \end{array} \right]
 $$
 
 ## QR factorization:
