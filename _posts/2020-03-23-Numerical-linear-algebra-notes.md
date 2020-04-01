@@ -1,6 +1,6 @@
 ---
 title: "Numerical Linear Algebra"
-permalink:  '/posts/2020/03/Numerical-linear-algebra-notes'
+permalink:  /posts/2020/03/Numerical-linear-algebra-notes
 excerpt: "Notes that I've made with help of professors and collegues during my Erasmus Exchange in University of Barcelona."
 date: 2020-03-23
 mathjax: true
@@ -28,31 +28,31 @@ A square matrix that is not singular, i.e. one that has a matrix inverse. Nonsin
 Solve directly:
 
 $$
-\left(\begin{array}{lll}
-{a} & {b} & {c} \\
-{0} & {d} & {e} \\
-{0} & {0} & {f}
-\end{array}\right)
+  \left(\begin{array}{lll}
+  {a} & {b} & {c} \\
+  {0} & {d} & {e} \\
+  {0} & {0} & {f}
+  \end{array}\right)
 
-\left(\begin{array}{lll}
-{x} & {y} & {z} \\
-{0} & {y} & {v} \\
-{0} & {0} & {w}
-\end{array}\right)
-=
-\left(\begin{array}{lll}
-{1} & {0} & {0} \\
-{0} & {1} & {0} \\
-{0} & {0} & {1}
-\end{array}\right)
+  \left(\begin{array}{lll}
+  {x} & {y} & {z} \\
+  {0} & {y} & {v} \\
+  {0} & {0} & {w}
+  \end{array}\right)
+  =
+  \left(\begin{array}{lll}
+  {1} & {0} & {0} \\
+  {0} & {1} & {0} \\
+  {0} & {0} & {1}
+  \end{array}\right)
 $$
 
 $$
-\left(\begin{array}{lll}
-{1 / a} & {-b /(a d)} & {(b e-c d) /(a f d)} \\
-{0} & {1 / d} & {-e /(f d)} \\
-{0} & {0} & {1 / f}
-\end{array}\right)
+  \left(\begin{array}{lll}
+  {1 / a} & {-b /(a d)} & {(b e-c d) /(a f d)} \\
+  {0} & {1 / d} & {-e /(f d)} \\
+  {0} & {0} & {1 / f}
+  \end{array}\right)
 $$
 
 from which we see directly that the matrix is invertible if all $a,d$ and $f$ are different from zero

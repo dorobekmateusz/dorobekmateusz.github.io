@@ -46,7 +46,7 @@ tags:
 
 # Twierdzenia
 
-## Podstawowe twierdzenie statystyki matematycznej
+## Podstawowe twierdzenie statystyki matematycznej - (lemat Glivienki-Cantellego)
 
 Niech $$X_1, ... X_n$$ będzie próbką prostą z rozkładu o dystybuancie $F$ 
 
