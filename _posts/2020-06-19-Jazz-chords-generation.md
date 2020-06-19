@@ -25,12 +25,13 @@ tags:
 
 # Demo
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=NvYioDlETH8">
+src="https://www.youtube.com/watch?v=NvYioDlETH8&feature=youtu.be">
 </iframe>
 
 # Master's thesis
-<embed src="https://www.mateuszdorobek.pl/files/MasterThesis/DataFlowGeneratingChords.pdf" width="100%" height="100%" 
+<embed src="https://www.mateuszdorobek.pl/files/MasterThesis/MastersThesisMateuszDorobek.pdf" width="100%" height="100%" 
  type="application/pdf">
+ 
 ---
 
 24 Jan 2019 - [Mateusz Dorobek](https://mateuszdorobek.pl)
