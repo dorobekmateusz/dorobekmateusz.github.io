@@ -16,12 +16,12 @@ tags:
 
 ​    The experiments shows the highest performance of deep models with recurrent layers - *GRU* and *LSTM*, but the one with the shortest runtime is the model with two GRU layers, Dropout regularization layer and Dense layer. I use trained models to build a simple program capable of generating continuous chord sequences in the unsupervised variant and with partially controlling this generation by the user. For implementation of all algorithms, visualization and data processing I use *Python* language and its libraries: `tensorflow, keras, gensim, scikit-learn, numpy, pychord, music21` etc.
 
-
 # Poster
-<embed src="https://www.mateuszdorobek.pl/files/MasterThesis/Jazz%20Chords%20Generation%20Poster.pdf" width="100%" height="100%">
+
+<img src="https://www.mateuszdorobek.pl/files/MasterThesis/Jazz%20Chords%20Generation%20Poster.png" width="100%" height="100%">
 
 # System diagram
- <embed src="https://www.mateuszdorobek.pl/files/MasterThesis/DataFlowGeneratingChords.pdf" width="100%" height="100%">
+ <img src="https://www.mateuszdorobek.pl/files/MasterThesis/DataFlowGeneratingChords.png" width="100%" height="100%">
 
 # Demo
 <iframe width="420" height="315"
@@ -31,7 +31,6 @@ src="https://www.youtube.com/watch?v=NvYioDlETH8&feature=youtu.be">
 # Master's thesis
 <embed src="https://www.mateuszdorobek.pl/files/MasterThesis/MastersThesisMateuszDorobek.pdf" width="100%" height="100%" 
  type="application/pdf">
- 
 ---
 
 24 Jan 2019 - [Mateusz Dorobek](https://mateuszdorobek.pl)
