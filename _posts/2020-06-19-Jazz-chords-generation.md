@@ -26,7 +26,7 @@ tags:
 
 # Demo
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/NvYioDlETH8?start=209" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/NvYioDlETH8?start=207" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 # Master's thesis
 
 <embed src="https://www.mateuszdorobek.pl/files/MasterThesis/MastersThesisMateuszDorobek.pdf" width="100%" height="120%" 
