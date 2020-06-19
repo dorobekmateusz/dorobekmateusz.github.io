@@ -25,7 +25,7 @@ tags:
 
 # Demo
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=NvYioDlETH8&feature=youtu.be">
+src="https://www.youtube.com/embed?v=NvYioDlETH8&feature=youtu.be">
 </iframe>
 
 # Master's thesis
