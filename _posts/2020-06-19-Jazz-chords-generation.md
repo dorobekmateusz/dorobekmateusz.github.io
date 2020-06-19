@@ -21,15 +21,15 @@ tags:
 <img src="https://www.mateuszdorobek.pl/files/MasterThesis/Jazz%20Chords%20Generation%20Poster.png" width="100%" height="100%">
 
 # System diagram
+
  <img src="https://www.mateuszdorobek.pl/files/MasterThesis/DataFlowGeneratingChords.png" width="100%" height="100%">
 
 # Demo
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed?v=NvYioDlETH8&feature=youtu.be">
-</iframe>
 
+<iframe width="420" height="315" src="https://www.youtube.com/embed?v=NvYioDlETH8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 # Master's thesis
-<embed src="https://www.mateuszdorobek.pl/files/MasterThesis/MastersThesisMateuszDorobek.pdf" width="100%" height="100%" 
+
+<embed src="https://www.mateuszdorobek.pl/files/MasterThesis/MastersThesisMateuszDorobek.pdf" width="100%" height="120%" 
  type="application/pdf">
 ---
 
