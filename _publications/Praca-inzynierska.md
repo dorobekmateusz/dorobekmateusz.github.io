@@ -1,5 +1,5 @@
 ---
-title: "Wykorzystanie sztucznej inteligencji do generowania
+title: "Praca Inżynierska: Wykorzystanie sztucznej inteligencji do generowania
 treści muzycznych"
 collection: publications
 permalink: /publication/Wykorzystanie_sztucznej_inteligencji_do_generowania_tresci_muzycznych
