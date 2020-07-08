@@ -5,10 +5,8 @@ permalink: /posts/2020/07/Statystyka-a-co-to-takiego
 excerpt: 'W tym poście chciałbym przybliżyć temat statystyki dla tych osób które nie miały z nią do czynienia, ale także tym którzy posługują się pewnymi narzędziami ale niewiedzą jaka intuicja za nimi stoi. Ten post będzie być może początkiem dłuższej serii o tym jak ja rozumiem tę dziedzinę matematyki.'
 tags:
 
-	- Statystyka
+  - Statystyka
 ---
-
-
 
 # Wstęp
 
