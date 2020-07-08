@@ -59,9 +59,9 @@ Wówczas:
 
 ![lematGlivienkiCantellego](https://github.com/mateuszdorobek/mateuszdorobek.github.io/blob/master/files/StatystykaSources/lematGlivienkiCantellego.gif?raw=true)
 
-To twierdzenie mówi nam, że dystrybuanta empiryczna zbiega do teoretycznej, co oznacza, że przy odpowiednio dużej próbce możemy dowolnie blisko przybliżyć prawdziwy rozkład danej zmiennej rozkładem empirycznym (tym który uzyskaliśmy w badaniu próbki). Poniżej możemy zobaczyć przykład potwierdzający lemat Glivienki-Cantellego. Rozkład empiryczny (jeśli rozkład to i dystrybuanta) dla próbki o rozmiarze 2000 wygląda bardzo podobnie do rozkładu teoretycznego. 
+To twierdzenie mówi nam, że dystrybuanta empiryczna zbiega do teoretycznej, co oznacza, że przy odpowiednio dużej próbce możemy dowolnie blisko przybliżyć prawdziwy rozkład danej zmiennej rozkładem empirycznym (tym który uzyskaliśmy w badaniu próbki). Poniżej możemy zobaczyć przykład potwierdzający lemat Glivienki-Cantellego. Rozkład empiryczny (jeśli rozkład to i dystrybuanta) dla coraz to większych próbek zbiega do rozkładu teoretycznego. 
 
-![ExponentionalDistributionComparison](https://github.com/mateuszdorobek/mateuszdorobek.github.io/blob/master/files/StatystykaSources/ExponentionalDistributionComparison.gif?raw=true)
+![ExponentionalDistributionComparison](https://raw.githubusercontent.com/mateuszdorobek/mateuszdorobek.github.io/master/files/StatystykaSources/ExponentionalDistributionComparison.gif)
 
 # Podsumowanie
 
