@@ -28,7 +28,7 @@ Jak powiedział C. R. Rao *"Statystyka jest sposobem myślenia i wnioskowania"* 
 
 > *"Jaka jest szansa wyrzucenia 2 orłów w 4 rzutach, jeżeli szansa na  wyrzucenie orła to 50%?"* 
 
-odpowie nam właśnie rachunek prawdopodobieństwa. Wiedząc że rozkład prawdopodobieństwo <p align="center"><img src="/_posts/tex/28b0b71e05b371ee11b28542314966d1.svg?invert_in_darkmode&sanitize=true" align=middle width=9.07536795pt height=11.4155283pt/></p> sukcesów w <p align="center"><img src="/_posts/tex/b49da7325822089835b531a5fce8b94e.svg?invert_in_darkmode&sanitize=true" align=middle width=9.866876249999999pt height=7.0776222pt/></p> próbach określone jest wzorem <p align="center"><img src="/_posts/tex/bd53dac8ee0ace6e5a0dd907c85d5669.svg?invert_in_darkmode&sanitize=true" align=middle width=144.63690119999998pt height=39.452455349999994pt/></p>, gdzie <p align="center"><img src="/_posts/tex/3ceb13107024b0fcb56c22464beee0a1.svg?invert_in_darkmode&sanitize=true" align=middle width=8.27056725pt height=10.2739725pt/></p> to prawdopodobieństwo sukcesu.
+odpowie nam właśnie rachunek prawdopodobieństwa. Wiedząc że rozkład prawdopodobieństwo $$k$$ sukcesów w $$n$$ próbach określone jest wzorem $$\left(\begin{array}{l}n \\ k\end{array}\right) p^{k}(1-p)^{n-k}$$, gdzie $$p$$ to prawdopodobieństwo sukcesu.
 
 ![rachunekPrawdopodobienstwa](https://github.com/mateuszdorobek/mateuszdorobek.github.io/blob/master/files/StatystykaSources/rachunekPrawdopodobienstwa.gif?raw=true)
 
@@ -53,7 +53,7 @@ Statystyka pozwala nam na podstawie realizacji zmiennej losowej wywnioskować co
 
 Skąd możemy mieć pewność że dane które zebraliśmy pozwalają w jakikolwiek sposób powiedzieć coś o rozkładzie, przecież są losowe. Tutaj z pomocą przychodzi jedno z najważniejszych twierdzeń statystyki - Lemat Glivienki - Cantellego.
 
-Niech <p align="center"><img src="/_posts/tex/e74116a7a668e7504e141d3601d6a374.svg?invert_in_darkmode&sanitize=true" align=middle width=63.742540950000006pt height=14.42921205pt/></p> będzie próbką prostą z rozkładu o dystrybuancie <p align="center"><img src="/_posts/tex/efaaaf7e462e6a462aa9912b88cea10c.svg?invert_in_darkmode&sanitize=true" align=middle width=12.8539257pt height=11.232861749999998pt/></p>
+Niech $$X_1, ... X_n$$ będzie próbką prostą z rozkładu o dystrybuancie $$ F $$
 
 Wówczas:
 
