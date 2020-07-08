@@ -26,9 +26,9 @@ Data Science to bardzo szeroka dziedzina nauki czerpiąca zarówno z osiągnię�
 
 Jak powiedział C. R. Rao *"Statystyka jest sposobem myślenia i wnioskowania"* i właśnie to wnioskowanie przybliża nas do odpowiedzi. Zanim przejdziemy do wnioskowania statystycznego przypomnijmy sobie czym jest rachunek prawdopodobieństwa leżący u podstaw statystyki. Na pytanie 
 
-> *"Jaka jest szansa wyrzucenia 2 orłów w 4 rzutach, jeżeli prawdopodobieństwo wyrzucenia orła to 50%?"* 
+> *"Jaka jest szansa wyrzucenia 2 orłów w 4 rzutach, jeżeli szansa na  wyrzucenie orła to 50%?"* 
 
-odpowie nam właśnie rachunek prawdopodobieństwa. Wiedząc że rozkład prawdopodobieństwo $k$ sukcesów w $n$ próbach określone jest wzorem $\left(\begin{array}{l}n \\ k\end{array}\right) p^{k}(1-p)^{n-k}$, gdzie $p$ to prawdopodobieństwo sukcesu.
+odpowie nam właśnie rachunek prawdopodobieństwa. Wiedząc że rozkład prawdopodobieństwo $$k$$ sukcesów w $$n$$ próbach określone jest wzorem $$\left(\begin{array}{l}n \\ k\end{array}\right) p^{k}(1-p)^{n-k}$$, gdzie $$p$$ to prawdopodobieństwo sukcesu.
 
 ![rachunekPrawdopodobienstwa](https://github.com/mateuszdorobek/mateuszdorobek.github.io/blob/master/files/StatystykaSources/rachunekPrawdopodobienstwa.gif?raw=true)
 
@@ -44,7 +44,8 @@ Wyobraźmy sobie że jako analityk w firmie ubezpieczeniowej chcemy przewidzieć
 
 ![CarrAccident](https://github.com/mateuszdorobek/mateuszdorobek.github.io/blob/master/files/StatystykaSources/CarrAccident.jpg?raw=true)
 
-Zdjęcie: Aubrey Rose Odom - unsplash.com
+<center>Zdjęcie: Aubrey Rose Odom - unsplash.com</center>
+
 
 Statystyka pozwala nam na podstawie realizacji zmiennej losowej wywnioskować cos o rozkładzie, rachunek prawdopodobieństwa natomiast pozwala na wnioskowanie w drugą stronę.
 
@@ -52,7 +53,7 @@ Statystyka pozwala nam na podstawie realizacji zmiennej losowej wywnioskować co
 
 Skąd możemy mieć pewność że dane które zebraliśmy pozwalają w jakikolwiek sposób powiedzieć coś o rozkładzie, przecież są losowe. Tutaj z pomocą przychodzi jedno z najważniejszych twierdzeń statystyki - Lemat Glivienki - Cantellego.
 
-Niech $$X_1, ... X_n$$ będzie próbką prostą z rozkładu o dystrybuancie $F$ 
+Niech $$X_1, ... X_n$$ będzie próbką prostą z rozkładu o dystrybuancie $$ F $$
 
 Wówczas:
 
