@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mateusz Dorobek"
 title_separator          : "-"
 name                     : &name "Mateusz Dorobek"
-description              : &description "Student of Data Science, freelancer, musician"
+description              : &description "MSc in Data Science"
 url                      : https://mateuszdorobek.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mateuszdorobek/mateuszdorobek.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Mateusz Dorobek"
   avatar           : "profile_pic.png"
-  bio              : "Student of Data Science, Freelancer, Speaker and Musician"
+  bio              : "MSc in Data Science"
   location         : "Warsaw PL"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=Wq5TTUgAAAAJ&hl=pl"
-  email            : "mateuszdorobek@gmail.com"
+  email            : "dorobekmateusz@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Mateusz_Dorobek"
   uri              :
   bitbucket        :
