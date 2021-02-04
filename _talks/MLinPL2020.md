@@ -8,7 +8,7 @@ venue: "MLinPL2020"
 location: "Online/Warsaw"
 ---
 
-ML in PL 2020 było wydarzeniem online i jak dla mnie było to najlepiej zorganizowane wydarzenie 2020 roku. Kudos dla organizatorów.
+ML in PL 2020 odbyło się w formie online. Moim zdaniem najlepiej zorganizowane wydarzenie AI 2020 roku. Kudos dla organizatorów.
 
 # Prezentacja
 
