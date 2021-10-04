@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mateusz Dorobek"
 title_separator          : "-"
 name                     : &name "Mateusz Dorobek"
-description              : &description "MSc in Data Science"
+description              : &description "Data Scientist @ Allegro"
 url                      : https://mateuszdorobek.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mateuszdorobek/mateuszdorobek.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Mateusz Dorobek"
   avatar           : "profile_pic.png"
-  bio              : "MSc in Data Science"
+  bio              : "Data Scientist @ Allegro"
   location         : "Warsaw PL"
   employer         :
   pubmed           :
