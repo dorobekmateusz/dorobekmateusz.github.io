@@ -24,7 +24,7 @@ Miałem ogromną przyjemność być prelegentem na [**Data Science Summit 2020**
 - [MIDI Generation](https://www.mateuszdorobek.pl/publications/ICAISC-2019-MIDI-DCGAN/)
 - [AI Music - SoundCloud](https://soundcloud.com/mateuszdorobek/sets/ai-music-1)
 - [AI-supported Jazz Chord Generation](https://www.youtube.com/watch?v=NvYioDlETH8)
-- [GitHub](https://github.com/SaxMan96)
+- [GitHub](https://github.com/mateuszdorobek)
 
 ### Architektury Sieci Neuronowych
 

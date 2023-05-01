@@ -164,7 +164,7 @@ class Population:
 
 In this implementation I've selected a `splitting_point` and used it to choose part of the genome that will be inherited from one parent and genome from another.
 
-![crossover_diagram](https://raw.githubusercontent.com/SaxMan96/Genetic-Algorithm/master/images/crossover_diagram.png)
+![crossover_diagram](https://raw.githubusercontent.com/mateuszdorobek/Genetic-Algorithm/master/images/crossover_diagram.png)
 
 ## Mutation
 
@@ -223,7 +223,7 @@ Great we have our algorithm implemented, let's test how the value of the paramet
 
 This parameter tells how often the crossover happens. Low crossover means that we are relying mostly on mutation, and rarely mix the parents to achieve new genome. High value means that we want to create most of the new individuals as a result of crossover.
 
-![comparition_crossover_rate](https://raw.githubusercontent.com/SaxMan96/Genetic-Algorithm/master/images/comparition_crossover_rate.png)
+![comparition_crossover_rate](https://raw.githubusercontent.com/mateuszdorobek/Genetic-Algorithm/master/images/comparition_crossover_rate.png)
 
 Chart above shows that high values of crossover allows algorithm to converge and work more stable. In this example algorithm achieved betted result with crossover `0.9` than `0.5`.
 
@@ -231,7 +231,7 @@ Chart above shows that high values of crossover allows algorithm to converge and
 
 This parameter describes how much genome elements should be changed to opposite value.
 
-![comparition_mutation_rate](https://raw.githubusercontent.com/SaxMan96/Genetic-Algorithm/master/images/comparition_mutation_rate.png)
+![comparition_mutation_rate](https://raw.githubusercontent.com/mateuszdorobek/Genetic-Algorithm/master/images/comparition_mutation_rate.png)
 
 As we can see High value of mutation leads our algorithm to `0` very fast. Mutation rate = `0.01` has similar result to `0.0001` but is more noisy and led us to smaller local maximum. The smallest mutation rate the betted but there might be a middle point where mutation is more useful.
 
@@ -239,7 +239,7 @@ As we can see High value of mutation leads our algorithm to `0` very fast. Mutat
 
 Size of the population means greater diversity between individuals in each iteration, but high values of this parameter increase the calculation time.
 
-![comparition_population_size](https://raw.githubusercontent.com/SaxMan96/Genetic-Algorithm/master/images/comparition_population_size.png)
+![comparition_population_size](https://raw.githubusercontent.com/mateuszdorobek/Genetic-Algorithm/master/images/comparition_population_size.png)
 
 Small population died early and didn't performed much better the random initialization. population size `10` is working better, but still it's too small and converges slow with lot of anomalies. The highest the population the better, but there is a limit where it only increases the computation time and not the score.
 
@@ -247,7 +247,7 @@ Small population died early and didn't performed much better the random initiali
 
 This parameter tell how much the subset of population will be taken into consideration while selecting a parents for reproduction. 
 
-![comparition_tournament_size](https://raw.githubusercontent.com/SaxMan96/Genetic-Algorithm/master/images/comparition_tournament_size.png)
+![comparition_tournament_size](https://raw.githubusercontent.com/mateuszdorobek/Genetic-Algorithm/master/images/comparition_tournament_size.png)
 
 Small value is equal to random choose and high value is more likely to just choosing the best individual. This parameter depends on population size, because we choose `tournament_size/populations_size*100`% of the population, which is relative value.
 
@@ -257,11 +257,11 @@ Now we all understand why does al these parameters matter, but still there is so
 
 Genetic algorithms have multiple mechanisms to save us from digging in local optima and we can see that in chart comparing mean of population evaluation vs best evaluation. You can see that best is continuously growing, but the mean is oscillation very strong, that means that our algorithm tries to find new solutions, and in almost every iteration this better solution is found.
 
-![animation](https://raw.githubusercontent.com/SaxMan96/Genetic-Algorithm/master/images/animation.gif)
+![animation](https://raw.githubusercontent.com/mateuszdorobek/Genetic-Algorithm/master/images/animation.gif)
 
 # What next?
 
-If you are interested how I have implemented all the other details of the project check out the [notebook](https://github.com/SaxMan96/Genetic-Algorithm/blob/master/Genetic%20Algorithm.ipynb).
+If you are interested how I have implemented all the other details of the project check out the [notebook](https://github.com/mateuszdorobek/Genetic-Algorithm/blob/master/Genetic%20Algorithm.ipynb).
 
 If you are interested in other similar methods check *simulated annealing, divide and conquer* and other heuristic algorithms.
 

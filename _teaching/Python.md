@@ -5,7 +5,7 @@ type: "Python Beginner to Intermediate Course materials and tasks for my student
 permalink: /teaching/Python
 ---
 
-I use Python in my everyday work as a tool for building applications, web scraping, artificial intelligence, music, and many other interesting things. My [Python-Course](https://github.com/SaxMan96/Python-Course) repository is a handy database with learning materials and tasks for my students.
+I use Python in my everyday work as a tool for building applications, web scraping, artificial intelligence, music, and many other interesting things. My [Python-Course](https://github.com/mateuszdorobek/Python-Course) repository is a handy database with learning materials and tasks for my students.
 
 # Contact Me
 
@@ -41,7 +41,7 @@ Our tutorial requires you to install [GIT](https://git-scm.com/downloads). Selec
 
 After you install GIT, follow these steps:
 
-0. **Fork** this repo using button at the bottom of [this](https://github.com/SaxMan96/Python-Course) page
+0. **Fork** this repo using button at the bottom of [this](https://github.com/mateuszdorobek/Python-Course) page
 
 1. **Clone** forked repository to your local machine using:
 
@@ -108,16 +108,16 @@ To open Jupyter Notebook file (such as *Introduction.ipynb*):
 
 # Lessons
 
-- [**Lesson 1** - Introduction](https://github.com/SaxMan96/Python-Course/blob/master/lessons/Lesson%2001%20-%20Introduction.ipynb)
-- [**Lesson 2** - Containers Part I - Lists & Tuples](https://github.com/SaxMan96/Python-Course/blob/master/lessons/Lesson%2002%20-%20Containers%20Part%20I%20-%20Lists%20%26%20Tuples.ipynb)
-- [**Lesson 3** - Conditional Instructions & Operators](https://github.com/SaxMan96/Python-Course/blob/master/lessons/Lesson%2003%20-%20Conditional%20Instructions%20%26%20Operators.ipynb)
-- [**Lesson 4** - Loops](https://github.com/SaxMan96/Python-Tutorial/blob/master/lessons/Lesson%2004%20-%20Loops.ipynb)
-- [**Lesson 5** - Containers Part II - Dictionary & Set](https://github.com/SaxMan96/Python-Tutorial/blob/master/lessons/Lesson%2005%20-%20Containers%20Part%20II%20-%20Dictionary%20%26%20Set.ipynb)
-- [**Lesson 6** - String Formatting](https://github.com/SaxMan96/Python-Tutorial/blob/master/lessons/Lesson%2006%20-%20String%20Formatting.ipynb)
-- [**Lesson 7** - Functions](https://github.com/SaxMan96/Python-Tutorial/blob/master/lessons/Lesson%2007%20-%20Functions.ipynb)
-- [**Lesson 8** - Lambdas](https://github.com/SaxMan96/Python-Tutorial/blob/master/lessons/Lesson%2008%20-%20Lambdas.ipynb)
-- [**Lesson 9** - Classes](https://github.com/SaxMan96/Python-Tutorial/blob/master/lessons/Lesson%2009%20-%20Classes.ipynb)
-- [**Lesson 10** - Inheritance](https://github.com/SaxMan96/Python-Tutorial/blob/master/lessons/Lesson%2010%20-%20Inheritance.ipynb)
+- [**Lesson 1** - Introduction](https://github.com/mateuszdorobek/Python-Course/blob/master/lessons/Lesson%2001%20-%20Introduction.ipynb)
+- [**Lesson 2** - Containers Part I - Lists & Tuples](https://github.com/mateuszdorobek/Python-Course/blob/master/lessons/Lesson%2002%20-%20Containers%20Part%20I%20-%20Lists%20%26%20Tuples.ipynb)
+- [**Lesson 3** - Conditional Instructions & Operators](https://github.com/mateuszdorobek/Python-Course/blob/master/lessons/Lesson%2003%20-%20Conditional%20Instructions%20%26%20Operators.ipynb)
+- [**Lesson 4** - Loops](https://github.com/mateuszdorobek/Python-Tutorial/blob/master/lessons/Lesson%2004%20-%20Loops.ipynb)
+- [**Lesson 5** - Containers Part II - Dictionary & Set](https://github.com/mateuszdorobek/Python-Tutorial/blob/master/lessons/Lesson%2005%20-%20Containers%20Part%20II%20-%20Dictionary%20%26%20Set.ipynb)
+- [**Lesson 6** - String Formatting](https://github.com/mateuszdorobek/Python-Tutorial/blob/master/lessons/Lesson%2006%20-%20String%20Formatting.ipynb)
+- [**Lesson 7** - Functions](https://github.com/mateuszdorobek/Python-Tutorial/blob/master/lessons/Lesson%2007%20-%20Functions.ipynb)
+- [**Lesson 8** - Lambdas](https://github.com/mateuszdorobek/Python-Tutorial/blob/master/lessons/Lesson%2008%20-%20Lambdas.ipynb)
+- [**Lesson 9** - Classes](https://github.com/mateuszdorobek/Python-Tutorial/blob/master/lessons/Lesson%2009%20-%20Classes.ipynb)
+- [**Lesson 10** - Inheritance](https://github.com/mateuszdorobek/Python-Tutorial/blob/master/lessons/Lesson%2010%20-%20Inheritance.ipynb)
 
 # Sources
 

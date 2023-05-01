@@ -11,16 +11,16 @@ tags:
 ---
 **UPDATE 11.19** - Preprint available ["Application of Deep Neural Networks to Music Composition Based on MIDI Datasets and Graphical Representation"](https://www.mateuszdorobek.pl/files/ICAISC2019_musicGAN_preprint.pdf)
 
-**UPDATE 07.19** - New article ["Use of artificial intelligence for generating musical contents"](https://github.com/SaxMan96/Music-Generator/blob/master/Article.pdf) PL. 
+**UPDATE 07.19** - New article ["Use of artificial intelligence for generating musical contents"](https://github.com/mateuszdorobek/Music-Generator/blob/master/Article.pdf) PL. 
 
-Music at [SoundCloud](https://soundcloud.com/mateuszdorobek/sets/ai-music), Code on [GitHub](https://github.com/SaxMan96/Music-Generator)
+Music at [SoundCloud](https://soundcloud.com/mateuszdorobek/sets/ai-music), Code on [GitHub](https://github.com/mateuszdorobek/Music-Generator)
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/719803656&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 # Input Data
 
 I've decided to use piano roll format, because it has less data redundancy than wave form and spectrogram:
 
-<img src="https://raw.githubusercontent.com/SaxMan96/Music-Generator/master/images/music_formats_%20comparition.png" width="800" align="middle" title="Music Formats Comparition">
+<img src="https://raw.githubusercontent.com/mateuszdorobek/Music-Generator/master/images/music_formats_%20comparition.png" width="800" align="middle" title="Music Formats Comparition">
 
 Images in piano roll format was created from two midi databases:
 
@@ -29,15 +29,15 @@ Images in piano roll format was created from two midi databases:
 | [Dough McKeznie](https://bushgrafts.com/midi/)               | Jazz Piano Solo                             | MIDI        | ~300 pieces, 20h   |
 | [MAESTRO](https://magenta.tensorflow.org/datasets/maestro#dataset) | Recordings from classical piano competition | Wave & MIDI | ~2500 pieces, 170h |
 
-Using scripts in [MidiScripts](https://github.com/SaxMan96/Music-Generator/tree/master/MidiScripts) I've transformed raw midi files into piano roll image format. 
+Using scripts in [MidiScripts](https://github.com/mateuszdorobek/Music-Generator/tree/master/MidiScripts) I've transformed raw midi files into piano roll image format. 
 
 
 #### Preprocessing steps:
 
-- Removing unnecessary markers from MIDI file using [mtxClearScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/mtxClearScript.py)
-- Quantizing midi events to 30ms using [mtxQuantizeScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/mtxQuantizeScript.py)
-- Merging all midi files with [mtxMergeScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/mtxMergeScript.py) into one big pixel matrix 
-- Dividing and converting with [mtxCompressScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/mtxCompressScript.py) into training image set.
+- Removing unnecessary markers from MIDI file using [mtxClearScript.py](https://github.com/mateuszdorobek/Music-Generator/blob/master/MidiScripts/mtxClearScript.py)
+- Quantizing midi events to 30ms using [mtxQuantizeScript.py](https://github.com/mateuszdorobek/Music-Generator/blob/master/MidiScripts/mtxQuantizeScript.py)
+- Merging all midi files with [mtxMergeScript.py](https://github.com/mateuszdorobek/Music-Generator/blob/master/MidiScripts/mtxMergeScript.py) into one big pixel matrix 
+- Dividing and converting with [mtxCompressScript.py](https://github.com/mateuszdorobek/Music-Generator/blob/master/MidiScripts/mtxCompressScript.py) into training image set.
 
 #### Sample MIDI in text format (MIDI is basically binary file)
 ```
@@ -59,7 +59,7 @@ MTrk
 ...
 ```
 ### Piano Roll example:
-<img src="https://raw.githubusercontent.com/SaxMan96/Music-Generator/master/images/img.png?token=AQ9tTYisSGQLtBd-wC1vXO8bEgenRsebks5cgXUcwA%3D%3D" width="400" align="middle" title="Input Image">
+<img src="https://raw.githubusercontent.com/mateuszdorobek/Music-Generator/master/images/img.png?token=AQ9tTYisSGQLtBd-wC1vXO8bEgenRsebks5cgXUcwA%3D%3D" width="400" align="middle" title="Input Image">
 
 # Neural Network
 I've decided to use DCGAN architecture described and implemented [here](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html) 
@@ -68,24 +68,24 @@ I've decided to use DCGAN architecture described and implemented [here](https://
 
 # Training
 To train I've used [Google Collaboratory](colab.research.google.com) with their amazing **Tesla K80**, and my private device with **NVidia 1050Ti** which performed really well.
-As a result of training I've received bunch of indistinguishable images which I've to transform back to midi form with [imagesDecodeScript.py](https://github.com/SaxMan96/Music-Generator/blob/master/MidiScripts/imagesDecodeScript.py)
+As a result of training I've received bunch of indistinguishable images which I've to transform back to midi form with [imagesDecodeScript.py](https://github.com/mateuszdorobek/Music-Generator/blob/master/MidiScripts/imagesDecodeScript.py)
 
-![Fake vs Real](https://raw.githubusercontent.com/SaxMan96/Music-Generator/master/images/Fake%20vs%20Real.png?token=AQ9tTS3Gwu_EG1oyGgVLGJGHY8E0xcTHks5cgXvbwA%3D%3D)
+![Fake vs Real](https://raw.githubusercontent.com/mateuszdorobek/Music-Generator/master/images/Fake%20vs%20Real.png?token=AQ9tTS3Gwu_EG1oyGgVLGJGHY8E0xcTHks5cgXvbwA%3D%3D)
 
 Overall cost function in first experiments seems to prove some overfitting, but in this kind of images it's nothing surprising.
 
-![Cost Function](https://raw.githubusercontent.com/SaxMan96/Music-Generator/master/images/G%26D%20Loss.png?token=AQ9tTWjsbX7O7GxkGVsMZuVQeG2GQYMWks5cgXxcwA%3D%3D)
+![Cost Function](https://raw.githubusercontent.com/mateuszdorobek/Music-Generator/master/images/G%26D%20Loss.png?token=AQ9tTWjsbX7O7GxkGVsMZuVQeG2GQYMWks5cgXxcwA%3D%3D)
 
 And here we have one of the most beautiful things in using GAN networks, learning progress animation
 
 
-![GIF](https://github.com/SaxMan96/Music-Generator/blob/master/images/gif_short.gif?raw=true)
+![GIF](https://github.com/mateuszdorobek/Music-Generator/blob/master/images/gif_short.gif?raw=true)
 
 # Results
 
 As always not the theory, but results are the most interesting thigs in this type of projects. 
 
-Look at [examples](https://github.com/SaxMan96/Music-Generator/tree/master/music) where you can find music generated using DCGAN. 
+Look at [examples](https://github.com/mateuszdorobek/Music-Generator/tree/master/music) where you can find music generated using DCGAN. 
 
 # Tech Stack
 

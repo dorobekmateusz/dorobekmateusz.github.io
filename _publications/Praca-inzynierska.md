@@ -12,7 +12,7 @@ Do nauki sieci zostały użyte muzyczne bazy nagrań MIDI, zawierające muzykę 
 
 Artykuł dostępny również na [ResearchGate](https://www.researchgate.net/publication/333933981_Wykorzystanie_sztucznej_inteligencji_do_generowania_tresci_muzycznych) i [ArXiv](https://arxiv.org/abs/1912.10815)
 
-Repozytorium dostępne na: [GitHub](https://github.com/SaxMan96/Music-Generator)
+Repozytorium dostępne na: [GitHub](https://github.com/mateuszdorobek/Music-Generator)
 
 <embed src="https://www.mateuszdorobek.pl/files/Wykorzystanie_sztucznej_inteligencji_do_generowania_tresci_muzycznych.pdf" width="100%" height="100%" 
  type="application/pdf">
